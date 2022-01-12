@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{fa92d68c-4f14-40bc-897c-9e14f72d4d19}</formid>
+    <IntroducedVersion>8.0.0.0</IntroducedVersion>
+    <FormPresentation>2</FormPresentation>
+    <FormActivationState>0</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{0d110c3b-9085-448b-a348-19e0999e6a8c}" IsUserDefined="1">
+          <labels>
+            <label description="General Info" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="24%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{65bfd62c-aae0-4bd2-92e4-c81d9c626fc4}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c23f41c6-b3ef-47d7-b7db-752c76a71049}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="ikl_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ikl_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b5f8a6c3-ead1-421d-af6d-146d042d4775}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="38%">
+              <sections>
+                <section showlabel="true" showbar="false" id="{a902d553-77c1-4ad4-b7d5-e038896c3496}" IsUserDefined="0" height="auto">
+                  <labels>
+                    <label description="TIMELINE" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" colspan="1" rowspan="18" auto="false" id="{d8161e11-7d21-4f0e-9529-a246af3ae6ad}">
+                        <labels>
+                          <label description="Conversation Tabs" languagecode="1033" />
+                        </labels>
+                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row height="auto" />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="38%">
+              <sections>
+                <section showlabel="true" columns="1" showbar="false" id="{c67c7d45-5454-46df-b492-45af609b8dd5}" name="ref_pan_{c67c7d45-5454-46df-b492-45af609b8dd5}" IsUserDefined="0">
+                  <labels>
+                    <label description="RELATED" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{e42cf612-2c89-4352-965a-72106e5955c7}" celllabelposition="Left" columns="1111">
+        <rows>
+          <row />
+        </rows>
+      </header>
+      <DisplayConditions Order="2" />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

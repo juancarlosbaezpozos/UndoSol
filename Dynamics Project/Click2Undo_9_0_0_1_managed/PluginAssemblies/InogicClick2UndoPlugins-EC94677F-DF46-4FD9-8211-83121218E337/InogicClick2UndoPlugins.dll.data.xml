@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PluginAssembly FullName="Inogic.Click2Undo.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f81dc1825d234d7e" PluginAssemblyId="ec94677f-df46-4fd9-8211-83121218e337" CustomizationLevel="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IsolationMode>2</IsolationMode>
+  <SourceType>0</SourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <FileName>/PluginAssemblies/InogicClick2UndoPlugins-EC94677F-DF46-4FD9-8211-83121218E337/InogicClick2UndoPlugins.dll</FileName>
+  <PluginTypes>
+    <PluginType AssemblyQualifiedName="Inogic.Click2Undo.Plugins.ValidateEntityConfiguration, Inogic.Click2Undo.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f81dc1825d234d7e" PluginTypeId="68c7a6b1-7658-ea11-a3a3-00155d00131e" Name="Inogic.Click2Undo.Plugins.ValidateEntityConfiguration">
+      <FriendlyName>5c4719f3-279a-4f8d-be32-2e40c6fab687</FriendlyName>
+    </PluginType>
+  </PluginTypes>
+</PluginAssembly>

@@ -1,0 +1,1 @@
+﻿SolutionPackager.exe /action:Pack /folder:"C:\Projects\UlxUndo\Dynamics Project\Click2Undo_9_0_0_1_managed" /zipfile:"C:\Projects\UlxUndo\Dynamics Project\Click2Undo_9_0_0_7_managed.zip" /packagetype:Managed /allowDelete:Yes /allowWrite:Yes /clobber /nologo

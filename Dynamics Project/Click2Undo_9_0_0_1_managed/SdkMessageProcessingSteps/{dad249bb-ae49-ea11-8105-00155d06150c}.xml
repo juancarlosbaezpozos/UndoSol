@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="Inogic.Click2Undo.Plugins.ValidateEntityConfiguration: Create of ikl_c2u_entityconfiguration" SdkMessageProcessingStepId="{dad249bb-ae49-ea11-8105-00155d06150c}" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PluginTypeName>Inogic.Click2Undo.Plugins.ValidateEntityConfiguration, Inogic.Click2Undo.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f81dc1825d234d7e</PluginTypeName>
+  <PluginTypeId>68c7a6b1-7658-ea11-a3a3-00155d00131e</PluginTypeId>
+  <PrimaryEntity>ikl_c2u_entityconfiguration</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <Description>Inogic.Click2Undo.Plugins.ValidateEntityConfiguration: Create of ikl_c2u_entityconfiguration</Description>
+  <FilteringAttributes></FilteringAttributes>
+  <InvocationSource>1</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <SdkMessageId>{9ebdbb1b-ea3e-db11-86a7-000a3a5473e8}</SdkMessageId>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>40</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages />
+</SdkMessageProcessingStep>

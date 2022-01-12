@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{9c894901-7c49-ea11-8105-00155d06150c}</WebResourceId>
+  <Name>ikl_/Click2Undo/Css/Alert.css</Name>
+  <DisplayName>ikl_/Click2Undo/Css/Alert.css</DisplayName>
+  <Description>Alert CSS.</Description>
+  <WebResourceType>2</WebResourceType>
+  <IntroducedVersion>8.0.0.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/ikl_Click2UndoCssAlertcss9C894901-7C49-EA11-8105-00155D06150C</FileName>
+</WebResource>

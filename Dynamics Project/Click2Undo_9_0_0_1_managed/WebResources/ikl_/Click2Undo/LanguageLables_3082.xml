@@ -1,0 +1,413 @@
+<langlabels>
+  <maptype name="licenseconfiguration">
+    <data name="licconfig">
+      <value>Configuración de la licencia Inogic</value>
+    </data>
+    <data name="activate">
+      <value>ACTIVAR</value>
+    </data>
+    <data name="sendreqmsg">
+      <value>Haga clic aquí para enviar la solicitud a Inogic para comprar/renovar/extender la licencia para este producto</value>
+    </data>
+    <data name="sendreq">
+      <value>ENVIAR LA SOLICITUD</value>
+    </data>
+    <data name="licreg">
+      <value>Registro de la licencia</value>
+    </data>
+    <data name="enterfn">
+      <value>Ingresar nombre</value>
+    </data>
+    <data name="fn">
+      <value>Nombre</value>
+    </data>
+    <data name="entln">
+      <value>Ingresar apellido</value>
+    </data>
+    <data name="ln">
+      <value>Apellido</value>
+    </data>
+    <data name="entcompname">
+      <value>Ingresar nombre de la empresa</value>
+    </data>
+    <data name="entsavemsg">
+      <value>
+        Sin cambios no guardados.
+      </value>
+    </data>
+    <data name="entConfigDesc">
+      <value>Seleccione las entidades para habilitar para Click2Undo.</value>
+    </data>
+    <data name="compname">
+      <value>Nombre de la empresa</value>
+    </data>
+    <data name="entemail">
+      <value>Ingresar correo electrónico</value>
+    </data>
+    <data name="enableentities">
+      <value>Habilitar entidades</value>
+    </data>
+    <data name="email">
+      <value>Email</value>
+    </data>
+    <data name="availent">
+      <value>
+        Entidades disponibles
+      </value>
+    </data>
+    <data name="selent">
+      <value>
+        Entidades seleccionadas
+      </value>
+    </data>
+    <data name="entwebsite">
+      <value>Ingresar sitio web</value>
+    </data>
+    <data name="entMsg">
+      <value>
+        Configuraciones guardadas con éxito.
+      </value>
+    </data>
+    <data name="entErrMsg">
+      <value>
+        Configuraciones guardadas con error. Por favor, revise los registros de Click2Undo para detalles de error.
+      </value>
+    </data>
+    <data name="enetphono">
+      <value>Ingresar número de teléfono principal</value>
+    </data>
+    <data name="website">
+      <value>Sitio web</value>
+    </data>
+    <data name="phono">
+      <value>Teléfono principal</value>
+    </data>
+    <data name="crmdetails">
+      <value>Detalles CRM</value>
+    </data>
+    <data name="crmurl">
+      <value>URL de CRM</value>
+    </data>
+    <data name="org">
+      <value>Organización</value>
+    </data>
+    <data name="prd">
+      <value>Producto</value>
+    </data>
+    <data name="crmversion">
+      <value>Versión de CRM</value>
+    </data>
+    <data name="userlic">
+      <value>Licencia del usuario</value>
+    </data>
+    <data name="licregfile">
+      <value>Registro de licencia usando el archivo (*.lic)</value>
+    </data>
+    <data name="sellicfile">
+      <value>Seleccione el archivo (*.lic)</value>
+    </data>
+    <data name="clicktoregi">
+      <value>Haga clic aquí para registrar la licencia</value>
+    </data>
+    <data name="regi">
+      <value>Registro</value>
+    </data>
+    <data name="config">
+      <value>Configurar</value>
+    </data>
+    <data name="notes">
+      <value>Notas</value>
+    </data>
+    <data name="licsdate">
+      <value>Fecha inicial de la licencia</value>
+    </data>
+    <data name="licedate">
+      <value>Fecha final de la licencia</value>
+    </data>
+    <data name="proceed">
+      <value>Proceder</value>
+    </data>
+    <data name="licexpmsg">
+      <value>Su licencia ha expirado, haga clic en el botón Enviar solicitud para actualizar su suscripción.</value>
+    </data>
+    <data name="msgfromino">
+      <value>Mensaje de Inogic</value>
+    </data>
+    <data name="filleddetail">
+      <value>Los detalles de la sección de Registro de Licencia serán transferidos a www.inogic.com. ¿Desea continuar?</value>
+    </data>
+    <data name="reqdetails">
+      <value>Brinde todos los detalles requeridos antes de continuar.</value>
+    </data>
+    <data name="validlicfile">
+      <value>Busque un archivo de licencia válido.</value>
+    </data>
+    <data name="reconfigure">
+      <value>¿Quieres configurar</value>
+    </data>
+    <data name="invalidlicfile">
+      <value>Archivo de licencia inválido.</value>
+    </data>
+    <data name="selvalidfile">
+      <value>Seleccione un archivo de licencia válido.</value>
+    </data>
+    <data name="valemail">
+      <value>Brinde un id de correo electrónico válido antes de proceder.</value>
+    </data>
+    <data name="licsuccemsg">
+      <value>Licencia actualizada con éxito.</value>
+    </data>
+    <data name="recnotfound">
+      <value>Registro no devuelto del servicio. Haga clic en el botón 'ENVIAR SOLICITUD' para enviar los detalles de CRM a Inogic.</value>
+    </data>
+    <data name="liccresucce">
+      <value>Licencia creada con éxito.</value>
+    </data>
+    <data name="activatemsg">
+      <value>Haga clic aquí para activar este producto</value>
+    </data>
+    <!--maplytics msg-->
+    <data name="addTeamMemberMsg">
+      <!--<value>Agregue miembros al equipo Maplytics que tendrá acceso a Maplytics.</value>-->
+      <value></value>
+    </data>
+    <data name="assignRoleMsg">
+      <value>Asigne cargos de Maplytics a los usuarios.</value>
+    </data>
+    <!--maplytics msg-->
+    <data name="viewConfigMsg">
+      <!--<value>Si las columnas de las vistas de la Entidad se actualizan de cualquier entidad entonces configure siempre el registro de mapas de la entidad de Maplytics para esa entidad</value>-->
+      <value></value>
+    </data>
+    <data name="dcrnfmsg">
+      <value>Su registro de configuración Maplytics se ha eliminado.Haga clic en Configuración --> Configuración --> haga clic en el botón activar para crear el registro o Por favor regístrese utilizando el archivo de licencia.</value>
+    </data>
+    <data name="entityRecCreateMsg">
+      <value>Dashboard y los registros de Entity Map configurados correctamente.</value>
+    </data>
+    <data name="sampleRecCreateMsg">
+      <value>Seleccione registros que hayan sido creados/actualizados con éxito.</value>
+    </data>
+    <data name="selSampleRecMsg">
+      <value>Seleccione al menos un registro a ser actualizado.</value>
+    </data>
+    <data name="sso">
+      <value>Su suscripción comenzará en</value>
+    </data>
+    <data name="processing">
+      <value>Tratamiento...</value>
+    </data>
+    <data name="configurationmsg">
+      <value>
+        Licencia creada correctamente.
+                Para completar la configuración del proceso, asegúrese de siguientes puntos:
+        1. Haga clic en el botón ""Configurar"" para configurar las opciones de Maplytics. Esto tardará aproximadamente 5 minutos.
+                2. agregar a los miembros necesarios para Maplytics del equipo.
+      </value>
+    </data>
+    <!--may release-->
+    <data name="licLimit">
+      <value>Hemos activado la licencia trial para 300 usuarios solamente. Si usted necesita activar la licencia para más usuarios, por favor contacte a crm@inogic.com</value>
+    </data>
+    <data name="congdeactive">
+      <value>Registro de configuración está desactivado por el usuario. Activar el registro para continuar.</value>
+    </data>
+    <data name="bkmsg">
+      <value>Su registro de configuración Maplytics ha sido eliminado. Por favor registre la licencia de uso del producto.</value>
+    </data>
+    <data name="userprev">
+      <value>No tiene suficientes privilegios para realizar la operación solicitada.</value>
+    </data>
+    <data name="licactivate">
+      <value>Solicitud de activación</value>
+    </data>
+    <data name="procPerSetting">
+      <value>Actualizando configuraciones personalizadas...</value>
+    </data>
+    <data name="updSample">
+      <value>Configuración de Maplytics</value>
+    </data>
+    <data name="applyAll">
+      <value>Aplicar a todos</value>
+    </data>
+    <data name="recordCopy">
+      <value>Actualizado correctamente los registros personalizados.</value>
+    </data>
+    <data name="recordCopyNO">
+      <value>No hay registros personalizados creados para los usuarios.</value>
+    </data>
+    <data name="confirmation">
+      <value>Confirmar acción</value>
+    </data>
+    <data name="copyConfirm1">
+      <value>Esta acción invalidará todas las personalizaciones del usuario y aplicar la configuración predeterminada para todos los registros de personalización de usuario.</value>
+    </data>
+    <data name="copyConfirm">
+      <value>
+        Esta acción invalidará todas las personalizaciones del usuario y aplicar la configuración predeterminada para todos los registros de personalización de usuario.
+
+        No se puede deshacer esta acción. ¿Desea continuar?
+      </value>
+    </data>
+    <data name="copyConfirm2">
+      <value> No se puede deshacer esta acción. ¿Desea continuar?</value>
+    </data>
+
+    <!--Added on 18/01/2019  notification details section-->
+    <data name="notify">
+      <value>Notificación</value>
+    </data>
+    <data name="notificationdetail">
+      <value>Detalles de la notificación</value>
+    </data>
+    <data name="fromemail">
+      <value>Desde</value>
+    </data>
+    <data name="toemail">
+      <value>A</value>
+    </data>
+    <data name="notifyinogic">
+      <value>Notificar a Inogic</value>
+    </data>
+    <data name="notifyinterval">
+      <value>Intervalo de notificación</value>
+    </data>
+    <data name="validatefrom">
+      <value>Seleccione en detalles de notificación</value>
+    </data>
+    <data name="validateto">
+      <value>Seleccione en detalles de notificación</value>
+    </data>
+    <data name="validatenotifyinterval">
+      <value>Seleccione el intervalo de notificación en los detalles de notificación</value>
+    </data>
+
+    <data name="notifydaily">
+      <value>Una vez al día</value>
+    </data>
+    <data name="notifyweekly">
+      <value>Una vez por semana</value>
+    </data>
+    <data name="notifymonthly">
+      <value>Una vez al mes</value>
+    </data>
+
+    <data name="notificationdescription">
+      <value>(Notifique al usuario ya Inogic acerca de los problemas relacionados con las licencias).</value>
+    </data>
+    <data name="tpfrom">
+      <value>Seleccione el usuario en su CRM que tiene el correo electrónico configurado y se puede utilizar para enviar correos electrónicos.</value>
+    </data>
+    <data name="tpto">
+      <value>Seleccione el usuario al que debe ir el correo electrónico de notificación.</value>
+    </data>
+    <data name="tpnotifyinogic">
+      <value>Si se marca esta opción, se creará una Cuenta en su CRM con el nombre "Inogic" y la dirección de correo electrónico como crm@inogic.com. El correo electrónico de notificación también se enviará a Inogic en crm@inogic.com.</value>
+    </data>
+    <data name="tpnotifyinterval">
+      <value>¿Con qué frecuencia desea enviar el correo electrónico de notificación?</value>
+    </data>
+    <!--end notification details section-->
+    <data name="tooltipclose">
+      <value>
+        Cerrar
+      </value>
+    </data>
+    <data name="tooltipok">
+      <value>
+        De acuerdo
+      </value>
+    </data>
+
+    <data name="saveConfig">
+      <value>Salvar</value>
+    </data>
+  </maptype>
+
+  <maptype name="licensevalidation">
+    <data name="tooltipclose">
+      <value>
+        Cerrar
+      </value>
+    </data>
+    <data name="tooltipok">
+      <value>
+        De acuerdo
+      </value>
+    </data>
+    <data name="licmissingmsg">
+      <value>Falta la licencia para el producto[PRODUCTNAME]</value>
+    </data>
+    <!--License configuration-->
+    <data name="pnmsg">
+      <value>Nombre del producto inválido: Nombre del producto con licencia:</value>
+    </data>
+    <data name="snmsg">
+      <value>Nombre del servidor inválido: Nombre del servidor con licencia:</value>
+    </data>
+    <data name="sdgmsg">
+      <value>La fecha de inicio no puede ser mayor que la fecha de finalización. </value>
+    </data>
+    <data name="mlrmsg">
+      <value>Se encontraron más de 1 licencia para el producto con org</value>
+    </data>
+    <data name="cvmsg">
+      <value>La versión con Licencia y la versión CRM no corresponden.</value>
+    </data>
+    <data name="onmsg">
+      <value>Nombre de la organización inválido: Nombre de la organización con licencia:</value>
+    </data>
+    <data name="nsrasumsg">
+      <value>No hay cargos de seguridad asignados para el usuario seleccionado. Asigne un cargo de seguridad.</value>
+    </data>
+    <data name="lemsg">
+      <value>La licencia expira en . Entre en contacto con Inogic (crm@inogic.com) para más detalles.</value>
+    </data>
+    <data name="lucmsg">
+      <value>
+        El recuento de usuarios activos supera el límite de licencia de usuario. Cuenta de usuarios con licencia:
+      </value>
+    </data>
+    <data name="prvmsg">
+      <value>No tiene privilegios para usar Maplytics. Asegúrese que el usuario sea añadido al Equipo de Maplytics. Para agregar un usuario al Equipo de Maplytics, vaya a Configuraciones > Seguridad > Equipos.</value>
+    </data>
+    <data name="prvmsg2013">
+      <value>No tiene privilegios para usar Maplytics. Asegúrese que el usuario sea añadido al Equipo de Maplytics. Para agregar un usuario al Equipo de Maplytics, vaya a Configuraciones > Administración > Equipos.</value>
+    </data>
+    <data name="sso">
+      <value>Su suscripción comenzará en</value>
+    </data>
+    <!--may release-->
+    <data name="selAll">
+      <value>Seleccionar todo</value>
+    </data>
+    <data name="rgflmsg">
+      <value>Usuario puede ingresar sólo un único valor de</value>
+    </data>
+    <data name="entprvmsg">
+      <value>Asigne la función de seguridad de "Maplytics User" a Team Maplytics. Ir a Configuración> Seguridad> Equipos.</value>
+    </data>
+    <data name="publicview">
+      <value>Vista pública</value>
+    </data>
+    <data name="advfindview">
+      <value>Vista personal</value>
+    </data>
+    <data name="dashboardview">
+      <value>Vista de consola</value>
+    </data>
+    <data name="mlview">
+      <value>Lista de marketing</value>
+    </data>
+
+    <!--Added on 18/01/2019-->
+    <data name="licensetampered">
+      <value>El archivo de licencia se ha manipulado [Campo manipulado: NOMBRE DE CAMPO]</value>
+    </data>
+    <data name="titlemsg">
+      <value>Licencia invalida</value>
+    </data>
+    <!--End-->
+
+  </maptype>
+</langlabels>

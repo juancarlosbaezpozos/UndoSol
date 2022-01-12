@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SiteMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SiteMap IntroducedVersion="7.0.0.0">
+    <Area Id="Settings" ResourceId="Area_Settings" DescriptionResourceId="Settings_Area_Description" Icon="/_imgs/settings_24x24.gif" ShowGroups="true" IntroducedVersion="7.0.0.0" ordinalvalue="3" solutionaction="Modified">
+      <Group Id="ikl_Click2Undo" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown" ordinalvalue="5" solutionaction="Added">
+        <Titles>
+          <Title LCID="1033" Title="Undo" />
+          <Title LCID="1036" Title="Undo" />
+          <Title LCID="1031" Title="Undo" />
+          <Title LCID="3082" Title="Undo" />
+        </Titles>
+        <SubArea Id="ikl_Click2Undo_Help" Icon="/WebResources/ikl_/Click2Undo/Images/Help_32.png" Url="$webresource:ikl_/Click2Undo/Help.html" AvailableOffline="true" PassParams="false" ordinalvalue="0">
+          <Titles>
+            <Title LCID="1033" Title="Help" />
+            <Title LCID="1036" Title="Aide" />
+            <Title LCID="1031" Title="Hilfe" />
+            <Title LCID="3082" Title="Ayuda" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="ikl_Click2Undo_License_Registration" Icon="/WebResources/ikl_/Click2Undo/Images/InogicLicense.InogicLicenseDetails_32.png" Url="$webresource:ikl_/Click2Undo/InogicLicense.LicenseConfiguration.html" AvailableOffline="true" PassParams="false" ordinalvalue="1">
+          <Titles>
+            <Title LCID="1033" Title="Entities" />
+            <Title LCID="1036" Title="Entities" />
+            <Title LCID="1031" Title="Entities" />
+            <Title LCID="3082" Title="Entities" />
+          </Titles>
+          <Privilege Entity="ikl_click2undoconfiguration" Privilege="Create" />
+        </SubArea>
+        <SubArea Id="ikl_click2undoconfiguration" Icon="/WebResources/msdyn_/Images/Subarea_Default_Icon.png" Entity="ikl_click2undoconfiguration" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" ordinalvalue="2" />
+        <SubArea Id="ikl_c2u_errorlog" Icon="/WebResources/msdyn_/Images/Subarea_Default_Icon.png" Entity="ikl_c2u_errorlog" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" ordinalvalue="3" />
+      </Group>
+    </Area>
+  </SiteMap>
+</SiteMap>

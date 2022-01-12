@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{a3bfe837-c957-ea11-8105-00155d06150c}</WebResourceId>
+  <Name>ikl_/Click2Undo/LanguageLables_1033.xml</Name>
+  <DisplayName>ikl_/Click2Undo/LanguageLables_1033_English.xml</DisplayName>
+  <Description>English language translations for Inogic licensing.</Description>
+  <WebResourceType>4</WebResourceType>
+  <IntroducedVersion>8.0.0.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/ikl_Click2UndoLanguageLables_1033xmlA3BFE837-C957-EA11-8105-00155D06150C</FileName>
+</WebResource>

@@ -1,0 +1,263 @@
+<langlabels>
+  <maptype name="entityconfiguration">
+    <data name="globalaudit">
+      <value>L'audit n'est pas activé pour l'organisation.</value>
+    </data>
+    <data name="entityaudit">
+      <value>L'audit n'est pas activé pour l'entité sélectionnée.</value>
+    </data>
+    <data name="duplicateentityconfig">
+      <value>La configuration d'entité est déjà présente pour l'entité sélectionnée.</value>
+    </data>
+    <data name="organizationsetting">
+      <value>La configuration d'entité est déjà présente pour l'entité sélectionnée.</value>
+    </data>
+    <data name="entitymetadata">
+      <value>Métadonnées d'entité introuvables.</value>
+    </data>
+    <data name="entitynamerequired">
+      <value>Veuillez sélectionner l'entité requise.</value>
+    </data>
+  </maptype>
+  <maptype name="c2uconfiguration">
+    <data name="c2uconfigurationnotfound">
+      <value>Configuration Click2Undo introuvable.</value>
+    </data>
+  </maptype>
+  <maptype name="restoredelete">
+    <data name="recordisalreadyexist">
+      <value>L'enregistrement avec le même identifiant existe déjà dans CRM.</value>
+    </data>
+  </maptype>
+  <maptype name="click2uondobutton">
+    <data name="lastundostatus">
+      <value>Sur {0} champs, {1} champ (s) est / sont restaurés avec succès. Pour la cause d'erreur du ou des champs {2} restants, veuillez vérifier l'entité Error Log.</value>
+    </data>
+    <data name="lastupdatewasstatus">
+      <value>La dernière mise à jour était un état ou une raison d'état et nous ne pouvons pas annuler ces champs.</value>
+    </data>
+    <data name="nodatafoundtorestore">
+      <value>Aucune donnée à restaurer.</value>
+    </data>
+    <data name="noauditdetailsfound">
+      <value>Aucun changement trouvé pour le dossier.</value>
+    </data>
+    <data name="progressdstatus">
+      <value>{0} traitées de {1} dossier(s)</value>
+    </data>
+    <data name="successmessage">
+      <value>Le ou les champs sont / sont restaurés avec succès.</value>
+    </data>
+    <data name="processedstatus">
+      <value>Sur {0} enregistrement (s), {1} enregistrement (s) a été restauré avec succès. Pour la cause d'erreur des {2} enregistrements restants, veuillez vérifier l'entité Error Log.</value>
+    </data>
+    <data name="okbutton">
+      <value>D'accord</value>
+    </data>
+  </maptype>
+  <maptype name="historygrid">
+    <data name="gridheader">
+      <value>Histoire</value>
+    </data>    
+    <data name="close">
+      <value>Fermer</value>
+    </data>
+    <data name="ok">
+      <value>D'accord</value>
+    </data>
+    <data name="startdate">
+      <value>Date de début</value>
+    </data>
+    <data name="enddate">
+      <value>Date de fin</value>
+    </data>
+    <data name="search">
+      <value>Chercher</value>
+    </data>
+    <data name="filterby">
+      <value>Filtrer par</value>
+    </data>
+    <data name="defaultDropDown">
+      <value>Tous les champs</value>
+    </data>
+    <data name="fieldname">
+      <value>Nom de domaine</value>
+    </data>
+    <data name="oldvalue">
+      <value>Ancienne valeur</value>
+    </data>
+    <data name="newvalue">
+      <value>Nouvelle valeur</value>
+    </data>
+    <data name="modifiedon">
+      <value>Modifié le</value>
+    </data>
+    <data name="modifiedby">
+      <value>Modifié par</value>
+    </data>
+    <data name="undo">
+      <value>annuler</value>
+    </data>
+    <data name="successmessage">
+      <value>Le ou les enregistrements sélectionnés ont été restaurés avec succès.</value>
+    </data>
+    <data name="norecordsfound">
+      <value>Aucun enregistrement d'historique trouvé entre la date de début et de fin sélectionnée.</value>
+    </data>
+    <data name="enddateafterstartdate">
+      <value>La date de fin doit être postérieure à la date de début.</value>
+    </data>
+    <data name="multiplerowsofonefield">
+      <value>Plusieurs lignes de {0} champs sont sélectionnées, veuillez sélectionner une seule ligne pour chaque champ à annuler.</value>
+    </data>
+    <data name="multiplerowsofmultiplefields">
+      <value>Plusieurs lignes du champ {0} sont sélectionnées, veuillez sélectionner une seule ligne pour le champ {1} à annuler.</value>
+    </data>
+    <data name="loading">
+      <value>Chargement...</value>
+    </data>
+    <data name="processing">
+      <value>Traitement...</value>
+    </data>
+    <data name="pagetranslation">
+      <value>Page</value>
+    </data>
+    <data name="selectedtranslation">
+      <value>Sélectionné</value>
+    </data>
+    <data name="ofTranslation">
+      <value>De</value>
+    </data>
+    <data name="months">
+      <value>Janvier,Février,Mars,Avril,Mai,Juin,Juillet,Août,Septembre, Octobre,Novembre,Décembre</value>
+    </data>
+    <data name="shortmonths">
+      <value>Jan,Fév,Mar,Avr,Mai,Jui,Jui,Aoû,Sep,Octo,Nov,Déc</value>
+    </data>
+    <data name="days">
+      <value>Dimanche,lundi, mardi,mercredi,Jeudi,Vendredi,Samedi</value>
+    </data>
+    <data name="shortdays">
+      <value>D,L,M,M,J,V,S</value>
+    </data>
+    <data name="gototoday">
+      <value>Aller à aujourd’hui</value>
+    </data>
+    <data name="prevmonth">
+      <value>Aller au mois précédent</value>
+    </data>
+    <data name="nextmonth">
+      <value>Aller au mois prochain</value>
+    </data>
+    <data name="prevyear">
+      <value>Aller à l’année précédente</value>
+    </data>
+    <data name="nextyear">
+      <value>Aller à l’année prochaine</value>
+    </data>
+    <data name="closebutton">
+      <value>Cueilleur de date de clôture</value>
+    </data>
+    <data name="isrequirederror">
+      <value>La date de début est requise.</value>
+    </data>
+    <data name="invalidinputerror">
+      <value>Format de date invalide.</value>
+    </data>
+  </maptype>
+  <maptype name="restoredeletegrid">
+    <data name="gridheader">
+      <value>Restaurer supprimé</value>
+    </data>    
+    <data name="close">
+      <value>Fermer</value>
+    </data>
+    <data name="ok">
+      <value>D'accord</value>
+    </data>
+    <data name="startdate">
+      <value>Date de début</value>
+    </data>
+    <data name="enddate">
+      <value>Date de fin</value>
+    </data>
+    <data name="search">
+      <value>Chercher</value>
+    </data>
+    <data name="deletedrecord">
+      <value>Enregistrement supprimé</value>
+    </data>
+    <data name="deletedon">
+      <value>Supprimé le</value>
+    </data>
+    <data name="deletedby">
+      <value>Supprimé par</value>
+    </data>
+    <data name="restore">
+      <value>Restaurer</value>
+    </data>
+    <data name="successmessage">
+      <value>Le ou les enregistrements sélectionnés ont été restaurés avec succès.</value>
+    </data>
+    <data name="norecordsfound">
+      <value>Aucun enregistrement supprimé trouvé entre la date de début et de fin sélectionnée.</value>
+    </data>
+    <data name="succeedrecordsstatus">
+      <value>Sur {0} enregistrement (s), {1} enregistrement (s) a été restauré avec succès. Pour la cause d'erreur des {2} enregistrements restants, veuillez vérifier l'entité Error Log.</value>
+    </data>
+    <data name="enddateafterstartdate">
+      <value>La date de fin doit être postérieure à la date de début.</value>
+    </data>
+    <data name="loading">
+      <value>Chargement...</value>
+    </data>
+    <data name="progressdstatus">
+      <value>{0} traitées de {1} dossier(s)</value>
+    </data>
+    <data name="pagetranslation">
+      <value>Page</value>
+    </data>
+    <data name="selectedtranslation">
+      <value>Sélectionné</value>
+    </data>
+    <data name="ofTranslation">
+      <value>De</value>
+    </data>
+    <data name="months">
+      <value>Janvier,Février,Mars,Avril,Mai,Juin,Juillet,Août,Septembre, Octobre,Novembre,Décembre</value>
+    </data>
+    <data name="shortmonths">
+      <value>Jan,Fév,Mar,Avr,Mai,Jui,Jui,Aoû,Sep,Octo,Nov,Déc</value>
+    </data>
+    <data name="days">
+      <value>Dimanche,lundi, mardi,mercredi,Jeudi,Vendredi,Samedi</value>
+    </data>
+    <data name="shortdays">
+      <value>D,L,M,M,J,V,S</value>
+    </data>
+    <data name="gototoday">
+      <value>Aller à aujourd’hui</value>
+    </data>
+    <data name="prevmonth">
+      <value>Aller au mois précédent</value>
+    </data>
+    <data name="nextmonth">
+      <value>Aller au mois prochain</value>
+    </data>
+    <data name="prevyear">
+      <value>Aller à l’année précédente</value>
+    </data>
+    <data name="nextyear">
+      <value>Aller à l’année prochaine</value>
+    </data>
+    <data name="closebutton">
+      <value>Cueilleur de date de clôture</value>
+    </data>
+    <data name="isrequirederror">
+      <value>La date de début est requise.</value>
+    </data>
+    <data name="invalidinputerror">
+      <value>Format de date invalide.</value>
+    </data>
+  </maptype>
+</langlabels>

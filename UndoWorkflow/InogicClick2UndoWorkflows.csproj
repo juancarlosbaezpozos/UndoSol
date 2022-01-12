@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<AssemblyName>Inogic.Click2Undo.Workflows</AssemblyName>
+		<GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+		<TargetFramework>net48</TargetFramework>
+	</PropertyGroup>
+	<PropertyGroup>
+		<LangVersion>8.0</LangVersion>
+		<AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+	</PropertyGroup>
+	<PropertyGroup>
+		<RootNamespace></RootNamespace>
+		<SignAssembly>true</SignAssembly>
+		<AssemblyOriginatorKeyFile>thekey2.snk</AssemblyOriginatorKeyFile>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.CrmSdk.CoreAssemblies" Version="9.0.2.42" />
+		<PackageReference Include="Microsoft.CrmSdk.Workflow" Version="9.0.2.42" />
+	</ItemGroup>
+	<ItemGroup>
+		<Reference Include="System.Activities" />
+		<Reference Include="System.ServiceModel" />
+		<Reference Include="Microsoft.Xrm.Sdk" />
+		<Reference Include="System.Core" />
+		<Reference Include="Microsoft.Crm.Sdk.Proxy" />
+		<Reference Include="System.Runtime.Serialization" />
+		<Reference Include="Microsoft.Xrm.Sdk.Workflow" />
+		<Reference Include="System.Xml" />
+	</ItemGroup>
+</Project>

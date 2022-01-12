@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Role id="{d776ca2e-7949-ea11-8105-00155d06150c}" name="Undo User" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IsCustomizable>1</IsCustomizable>
+  <RolePrivileges>
+    <RolePrivilege name="prvCreateikl_c2u_errorlog" level="Basic" />
+    <RolePrivilege name="prvCreateSharePointData" level="Global" />
+    <RolePrivilege name="prvReadAuditSummary" level="Global" />
+    <RolePrivilege name="prvReadikl_c2u_entityconfiguration" level="Global" />
+    <RolePrivilege name="prvReadikl_c2u_errorlog" level="Global" />
+    <RolePrivilege name="prvReadikl_click2undoconfiguration" level="Global" />
+    <RolePrivilege name="prvReadikl_inogiclicensedetails" level="Global" />
+    <RolePrivilege name="prvReadPluginAssembly" level="Global" />
+    <RolePrivilege name="prvReadPluginType" level="Global" />
+    <RolePrivilege name="prvReadSdkMessage" level="Global" />
+    <RolePrivilege name="prvReadSdkMessageProcessingStep" level="Global" />
+    <RolePrivilege name="prvReadSdkMessageProcessingStepImage" level="Global" />
+    <RolePrivilege name="prvReadSharePointData" level="Global" />
+    <RolePrivilege name="prvReadSharePointDocument" level="Global" />
+    <RolePrivilege name="prvWriteikl_click2undoconfiguration" level="Global" />
+    <RolePrivilege name="prvWriteikl_inogiclicensedetails" level="Global" />
+    <RolePrivilege name="prvWriteSharePointData" level="Global" />
+  </RolePrivileges>
+</Role>

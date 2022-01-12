@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=10" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Configuration</title>
+    <link href="Styles/InogicLicense.jquery_ui.css" rel="stylesheet">
+    <link href="Styles/InogicLicense.bootstrap.min.css" rel="stylesheet" />
+    <link href="Styles/InogicLicense.Style.css" rel="Stylesheet" />
+    <link href="Styles/InogicLicense.EnableEntity.css" rel="stylesheet" />
+    <script type="text/javascript" src="../../ClientGlobalContext.js.aspx"></script>
+    <script src="Scripts/InogicLicense.Es6Promise.js"></script>
+    <script src="Scripts/InogicLicense.jquery.js"></script>
+    <script src="Scripts/InogicLicense.jquery_ui.js"></script>
+    <script src="Scripts/InogicLicense.bootstrap.js"></script>
+    <script src="Scripts/InogicLicense.CrmJs.js"></script>
+    <script src="Scripts/InogicLicense.WebAPI.js"></script>
+    <script type="text/javascript">
+        var Inogic_jQ = jQuery.noConflict();
+        if (window.Sys && window.Sys.UI && window.Sys.UI.DomEvent && window.Sys.UI.DomEvent.prototype) {
+            window.Sys.UI.DomEvent.prototype.preventDefault = function () { };
+            window.Sys.UI.DomEvent.prototype.stopPropagation = function () { };
+        }
+    </script>
+</head>
+<body>
+
+    <!--Scrollable Body-->
+    <div id="Content" class="col-md-12 col-sm-12 col-xs-12 col-lg-12 container-fluid" style="clear:both;">
+
+
+        <!--Start Enable entity configuration panel-->
+        <div id="enableEntityConfiguration1" class="col-md-12 col-sm-12 col-xs-12 col-lg-12" style="clear:both; display: inline">
+            <div class="collapsesection">
+                <span data-toggle="collapse" data-target="#enableEntityConfig" id="ico_EnableEntityConfiguration" class="openedPanel"></span>
+                <span data-toggle="collapse" data-target="#enableEntityConfig" class="toggleCollapseSpan" id="spnEnableEntityConfiguration"></span>
+            </div>
+            <div id="enableEntityConfig" class="panel-collapse collapse in">
+                <div class="innercontent col-md-12 col-sm-12 col-lg-12 col-xs-12">
+                    <div class="row">
+
+                        <div class="controlscontainer col-md-12 col-sm-12 col-lg-12 col-xs-12">
+                            <div class="col-lg-4 col-md-4 col-sm-5 col-xs-11">
+                                <div class="row">
+                                    <div id="availablefieldsarea" class="col-md-12 col-sm-12">
+                                        <label class="fieldlabel listarea col-md-12 col-sm-12" for="availablefields_select" id="lblavailEntities"></label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div id="availablefieldslist" class="selectionarea col-md-12 col-sm-12" style="height: 125px;">
+                                        <ul id="selectableavailablefields" class="selectioncontent col-md-12 col-sm-12 ui-selectable" multiple="multiple"></ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12" style="/* clear: both; */padding: 0;text-align: center;margin-top: 5%;">
+
+                                <button id="btnAdd" class="movebtn" type="button">&gt;&gt;</button>
+                                <br />
+                                <br />
+                                <button id="btnRemove" class="movebtn" type="button">&lt;&lt;</button>
+
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-11">
+                                <div class="row">
+                                    <div id="selectedfieldsarea" class="col-md-12 col-sm-12">
+                                        <div style="float: left;">
+                                            <label class="fieldlabel listarea" for="availablefields_select" id="lblselEntities"></label>
+                                        </div>
+                                        <div style="float: right;">
+                                            <button id="btnSave" title="Save" class="grid-buttons">
+                                                <img id="saveImageAttr" class="buttonImage" alt="" src="Images/InogicLicense.Save_16.png" style="vertical-align:top;" />
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="row">
+                                    <div id="selectedfieldslist" class="selectionarea col-md-12 col-sm-12" style="height: 123px;">
+                                        <ul id="selectableselectedfields" class="selectioncontent connectedSortable col-md-12 col-sm-12"></ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Loader -->
+    <div class="veil"></div>
+    <div class="feedLoading" id="processing"></div>
+
+    <!--Fixed Footer-->
+    <!-- Loader On Save Entity Configuration -->
+    <div class="veilEC"></div>
+    <div class="feedLoadingEC" id="processingEC"></div>
+
+    <!--Declare scripts libraries to be used-->
+    <script src="Scripts/InogicLicense.bootstrap.js"></script>
+    <script src="Scripts/Shared/InogicLicense.DateFunctionsLibrary.js"></script>
+    <script src="Scripts/InogicLicense.LicDtEn.js"></script>
+    <script src="Scripts/InogicLicense.LicDtEnDc.js"></script>
+    <script src="Scripts/InogicLicense.Validation.js"></script>
+    <script src="Scripts/InogicLicense.Configuration.js"></script>
+
+</body>
+</html>

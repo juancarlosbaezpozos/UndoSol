@@ -1,0 +1,465 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CustomActions>
+    <CustomAction Id="ikl.ApplicationRibbon.FormButton.Click2Undo.CustomAction" Location="Mscrm.Form.{!EntityLogicalName}.MainTab.Save.Controls._children" Sequence="78">
+      <CommandUIDefinition>
+        <SplitButton Alt="$LocLabels:ikl.ApplicationRibbon.FormButton.Click2Undo.Alt" Command="ikl.ApplicationRibbon.FormButton.Click2UndoCommand" Id="ikl.ApplicationRibbon.FormButton.Click2Undo" Image32by32="$webresource:ikl_/Click2Undo/Images/Ribbon/Click2Undo_32.png" Image16by16="$webresource:ikl_/Click2Undo/Images/Ribbon/Click2Undo_16.png" LabelText="$LocLabels:ikl.ApplicationRibbon.FormButton.Click2Undo.LabelText" Sequence="78" TemplateAlias="o2" ToolTipTitle="$LocLabels:ikl.ApplicationRibbon.FormButton.Click2Undo.ToolTipTitle" ToolTipDescription="$LocLabels:ikl.ApplicationRibbon.FormButton.Click2Undo.ToolTipDescription" ModernImage="$webresource:ikl_/Click2Undo/Images/Ribbon/Click2Undo_32.svg">
+          <Menu Id="ikl.ApplicationRibbon.FormButton.Click2Undo.Menu">
+            <MenuSection Id="ikl.ApplicationRibbon.FormSection.Click2Undo" Sequence="5" DisplayMode="Menu16">
+              <Controls Id="ikl.ApplicationRibbon.FormSection.Click2Undo.Controls">
+                <Button Alt="$LocLabels:ikl.ApplicationRibbon.FormButton.History.Alt" Command="ikl.ApplicationRibbon.FormButton.HistoryCommand" Id="ikl.ApplicationRibbon.FormButton.History" Image32by32="$webresource:ikl_/Click2Undo/Images/Ribbon/History_32.png" Image16by16="$webresource:ikl_/Click2Undo/Images/Ribbon/History_16.png" LabelText="$LocLabels:ikl.ApplicationRibbon.FormButton.History.LabelText" Sequence="15" ToolTipTitle="$LocLabels:ikl.ApplicationRibbon.FormButton.History.ToolTipTitle" ToolTipDescription="$LocLabels:ikl.ApplicationRibbon.FormButton.History.ToolTipDescription" ModernImage="$webresource:ikl_/Click2Undo/Images/Ribbon/History_32.svg" />
+              </Controls>
+            </MenuSection>
+          </Menu>
+        </SplitButton>
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="ikl.ApplicationRibbon.HomeButton.Click2Undo.CustomAction" Location="Mscrm.HomepageGrid.{!EntityLogicalName}.MainTab.Management.Controls._children" Sequence="55">
+      <CommandUIDefinition>
+        <SplitButton Alt="$LocLabels:ikl.ApplicationRibbon.HomeButton.Click2Undo.Alt" Command="ikl.ApplicationRibbon.HomeButton.Click2UndoCommand" Id="ikl.ApplicationRibbon.HomeButton.Click2Undo" Image32by32="$webresource:ikl_/Click2Undo/Images/Ribbon/Click2Undo_32.png" Image16by16="$webresource:ikl_/Click2Undo/Images/Ribbon/Click2Undo_16.png" LabelText="$LocLabels:ikl.ApplicationRibbon.HomeButton.Click2Undo.LabelText" Sequence="55" TemplateAlias="o3" ToolTipTitle="$LocLabels:ikl.ApplicationRibbon.HomeButton.Click2Undo.ToolTipTitle" ToolTipDescription="$LocLabels:ikl.ApplicationRibbon.HomeButton.Click2Undo.ToolTipDescription" ModernImage="$webresource:ikl_/Click2Undo/Images/Ribbon/Click2Undo_32.svg">
+          <Menu Id="ikl.ApplicationRibbon.HomeButton.Click2Undo.Menu">
+            <MenuSection Id="ikl.ApplicationRibbon.HomeSection.Click2Undo" Sequence="5" DisplayMode="Menu16">
+              <Controls Id="ikl.ApplicationRibbon.HomeSection.Click2Undo.Controls">
+                <Button Alt="$LocLabels:ikl.ApplicationRibbon.HomeButton.History.Alt" Command="ikl.ApplicationRibbon.HomeButton.HistoryCommand" Id="ikl.ApplicationRibbon.HomeButton.History" Image32by32="$webresource:ikl_/Click2Undo/Images/Ribbon/History_32.png" Image16by16="$webresource:ikl_/Click2Undo/Images/Ribbon/History_16.png" LabelText="$LocLabels:ikl.ApplicationRibbon.HomeButton.History.LabelText" Sequence="15" ToolTipTitle="$LocLabels:ikl.ApplicationRibbon.HomeButton.History.ToolTipTitle" ToolTipDescription="$LocLabels:ikl.ApplicationRibbon.HomeButton.History.ToolTipDescription" ModernImage="$webresource:ikl_/Click2Undo/Images/Ribbon/History_32.svg" />
+              </Controls>
+            </MenuSection>
+          </Menu>
+        </SplitButton>
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="ikl.ApplicationRibbon.HomeButton.RestoreDeleted.CustomAction" Location="Mscrm.HomepageGrid.{!EntityLogicalName}.MainTab.Management.Controls._children" Sequence="58">
+      <CommandUIDefinition>
+        <Button Alt="$LocLabels:ikl.ApplicationRibbon.HomeButton.RestoreDeleted.Alt" Command="ikl.ApplicationRibbon.HomeButton.RestoreDeletedCommand" Id="ikl.ApplicationRibbon.HomeButton.RestoreDeleted" Image32by32="$webresource:ikl_/Click2Undo/Images/Ribbon/RestoreDelete_32.png" Image16by16="$webresource:ikl_/Click2Undo/Images/Ribbon/RestoreDelete_16.png" LabelText="$LocLabels:ikl.ApplicationRibbon.HomeButton.RestoreDeleted.LabelText" Sequence="58" TemplateAlias="o3" ToolTipTitle="$LocLabels:ikl.ApplicationRibbon.HomeButton.RestoreDeleted.ToolTipTitle" ToolTipDescription="$LocLabels:ikl.ApplicationRibbon.HomeButton.RestoreDeleted.ToolTipDescription" ModernImage="$webresource:ikl_/Click2Undo/Images/Ribbon/RestoreDelete_32.svg" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="ikl.ApplicationRibbon.SubGridButton.Click2Undo.CustomAction" Location="Mscrm.SubGrid.{!EntityLogicalName}.MainTab.Management.Controls._children" Sequence="53">
+      <CommandUIDefinition>
+        <SplitButton Alt="$LocLabels:ikl.ApplicationRibbon.SubGridButton.Click2Undo.Alt" Command="ikl.ApplicationRibbon.SunGridButton.Click2UndoCommand" Id="ikl.ApplicationRibbon.SubGridButton.Click2Undo" Image32by32="$webresource:ikl_/Click2Undo/Images/Ribbon/Click2Undo_32.png" Image16by16="$webresource:ikl_/Click2Undo/Images/Ribbon/Click2Undo_16.png" LabelText="$LocLabels:ikl.ApplicationRibbon.SubGridButton.Click2Undo.LabelText" Sequence="53" TemplateAlias="o2" ToolTipTitle="$LocLabels:ikl.ApplicationRibbon.SubGridButton.Click2Undo.ToolTipTitle" ToolTipDescription="$LocLabels:ikl.ApplicationRibbon.SubGridButton.Click2Undo.ToolTipDescription" ModernImage="$webresource:ikl_/Click2Undo/Images/Ribbon/Click2Undo_32.svg">
+          <Menu Id="ikl.ApplicationRibbon.SubGridButton.Click2Undo.Menu">
+            <MenuSection Id="ikl.ApplicationRibbon.SubGridSection.Click2Undo" Sequence="5" DisplayMode="Menu16">
+              <Controls Id="ikl.ApplicationRibbon.SubGridSection.Click2Undo.Controls">
+                <Button Alt="$LocLabels:ikl.ApplicationRibbon.SubGridButton.History.Alt" Command="ikl.ApplicationRibbon.SubGridButton.HistoryCommand" Id="ikl.ApplicationRibbon.SubGridButton.History" Image32by32="$webresource:ikl_/Click2Undo/Images/Ribbon/History_32.png" Image16by16="$webresource:ikl_/Click2Undo/Images/Ribbon/History_16.png" LabelText="$LocLabels:ikl.ApplicationRibbon.SubGridButton.History.LabelText" Sequence="10" ToolTipTitle="$LocLabels:ikl.ApplicationRibbon.SubGridButton.History.ToolTipTitle" ToolTipDescription="$LocLabels:ikl.ApplicationRibbon.SubGridButton.History.ToolTipDescription" ModernImage="$webresource:ikl_/Click2Undo/Images/Ribbon/History_32.svg" />
+              </Controls>
+            </MenuSection>
+          </Menu>
+        </SplitButton>
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="ikl.ApplicationRibbon.SubGridButton.RestoreDeleted.CustomAction" Location="Mscrm.SubGrid.{!EntityLogicalName}.MainTab.Management.Controls._children" Sequence="55">
+      <CommandUIDefinition>
+        <Button Alt="$LocLabels:ikl.ApplicationRibbon.SubGridButton.RestoreDeleted.Alt" Command="ikl.ApplicationRibbon.SubGridButton.RestoreDeletedCommand" Id="ikl.ApplicationRibbon.SubGridButton.RestoreDeleted" Image32by32="$webresource:ikl_/Click2Undo/Images/Ribbon/RestoreDelete_32.png" Image16by16="$webresource:ikl_/Click2Undo/Images/Ribbon/RestoreDelete_16.png" LabelText="$LocLabels:ikl.ApplicationRibbon.SubGridButton.RestoreDeleted.LabelText" Sequence="55" TemplateAlias="o2" ToolTipTitle="$LocLabels:ikl.ApplicationRibbon.SubGridButton.RestoreDeleted.ToolTipTitle" ToolTipDescription="$LocLabels:ikl.ApplicationRibbon.SubGridButton.RestoreDeleted.ToolTipDescription" ModernImage="$webresource:ikl_/Click2Undo/Images/Ribbon/RestoreDelete_32.svg" />
+      </CommandUIDefinition>
+    </CustomAction>
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions>
+    <CommandDefinition Id="ikl.ApplicationRibbon.FormButton.Click2UndoCommand">
+      <EnableRules>
+        <EnableRule Id="ikl.ApplicationRibbon.FormButtonEnableRule.SetClick2UndoAndHistoryButtonsVisibility" />
+        <EnableRule Id="ikl.ApplicationRibbon.EnableRule.WebClient" />
+      </EnableRules>
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="ikl_ApplicationRibbon_RibbonLibrary.click2UndoButtonClick" Library="$webresource:ikl_/Click2Undo/Scripts/ApplicationRibbon/RibbonLibrary.js">
+          <CrmParameter Value="PrimaryEntityTypeName" />
+          <CrmParameter Value="PrimaryItemIds" />
+          <BoolParameter Value="true" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="ikl.ApplicationRibbon.FormButton.HistoryCommand">
+      <EnableRules>
+        <EnableRule Id="ikl.ApplicationRibbon.FormButtonEnableRule.DisableForInactive" />
+      </EnableRules>
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="ikl_ApplicationRibbon_RibbonLibrary.historyButtonClick" Library="$webresource:ikl_/Click2Undo/Scripts/ApplicationRibbon/RibbonLibrary.js">
+          <CrmParameter Value="PrimaryEntityTypeName" />
+          <CrmParameter Value="PrimaryItemIds" />
+          <StringParameter Value="true" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="ikl.ApplicationRibbon.HomeButton.Click2UndoCommand">
+      <EnableRules>
+        <EnableRule Id="ikl.ApplicationRibbon.GridButtonEnableRule.SetClick2UndoAndHistoryButtonsVisibility" />
+      </EnableRules>
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="ikl_ApplicationRibbon_RibbonLibrary.click2UndoButtonClick" Library="$webresource:ikl_/Click2Undo/Scripts/ApplicationRibbon/RibbonLibrary.js">
+          <CrmParameter Value="SelectedEntityTypeName" />
+          <CrmParameter Value="SelectedControlSelectedItemIds" />
+          <BoolParameter Value="false" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="ikl.ApplicationRibbon.HomeButton.HistoryCommand">
+      <EnableRules>
+        <EnableRule Id="ikl.ApplicationRibbon.GridButtonEnableRule.OneSelectionCount" />
+      </EnableRules>
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="ikl_ApplicationRibbon_RibbonLibrary.historyButtonClick" Library="$webresource:ikl_/Click2Undo/Scripts/ApplicationRibbon/RibbonLibrary.js">
+          <CrmParameter Value="SelectedEntityTypeName" />
+          <CrmParameter Value="SelectedControlSelectedItemIds" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="ikl.ApplicationRibbon.HomeButton.RestoreDeletedCommand">
+      <EnableRules>
+        <EnableRule Id="ikl.ApplicationRibbon.GridButtonEnableRule.SetRestoreDeleteButtonVisibility" />
+        <EnableRule Id="ikl.ApplicationRibbon.EnableRule.WebClient" />
+        <EnableRule Id="ikl.ApplicationRibbon.GridButtonEnableRule.NoSelection" />
+      </EnableRules>
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="ikl_ApplicationRibbon_RibbonLibrary.restoreDeleteButtonClick" Library="$webresource:ikl_/Click2Undo/Scripts/ApplicationRibbon/RibbonLibrary.js">
+          <CrmParameter Value="SelectedEntityTypeCode" />
+          <CrmParameter Value="SelectedEntityTypeName" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="ikl.ApplicationRibbon.SubGridButton.HistoryCommand">
+      <EnableRules>
+        <EnableRule Id="ikl.ApplicationRibbon.GridButtonEnableRule.OneSelectionCount" />
+      </EnableRules>
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="ikl_ApplicationRibbon_RibbonLibrary.historyButtonClick" Library="$webresource:ikl_/Click2Undo/Scripts/ApplicationRibbon/RibbonLibrary.js">
+          <CrmParameter Value="SelectedEntityTypeName" />
+          <CrmParameter Value="SelectedControlSelectedItemIds" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="ikl.ApplicationRibbon.SubGridButton.RestoreDeletedCommand">
+      <EnableRules>
+        <EnableRule Id="ikl.ApplicationRibbon.GridButtonEnableRule.SetRestoreDeleteButtonVisibility" />
+        <EnableRule Id="ikl.ApplicationRibbon.EnableRule.WebClient" />
+        <EnableRule Id="ikl.ApplicationRibbon.GridButtonEnableRule.NoSelection" />
+      </EnableRules>
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="ikl_ApplicationRibbon_RibbonLibrary.restoreDeleteButtonClick" Library="$webresource:ikl_/Click2Undo/Scripts/ApplicationRibbon/RibbonLibrary.js">
+          <CrmParameter Value="SelectedEntityTypeCode" />
+          <CrmParameter Value="SelectedEntityTypeName" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="ikl.ApplicationRibbon.SunGridButton.Click2UndoCommand">
+      <EnableRules>
+        <EnableRule Id="ikl.ApplicationRibbon.GridButtonEnableRule.SetClick2UndoAndHistoryButtonsVisibility" />
+      </EnableRules>
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="ikl_ApplicationRibbon_RibbonLibrary.click2UndoButtonClick" Library="$webresource:ikl_/Click2Undo/Scripts/ApplicationRibbon/RibbonLibrary.js">
+          <CrmParameter Value="SelectedEntityTypeName" />
+          <CrmParameter Value="SelectedControlSelectedItemIds" />
+          <BoolParameter Value="false" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+  </CommandDefinitions>
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules />
+    <EnableRules>
+      <EnableRule Id="ikl.ApplicationRibbon.EnableRule.WebClient">
+        <OrRule>
+          <Or>
+            <CrmClientTypeRule Type="Web" />
+          </Or>
+          <Or>
+            <CrmClientTypeRule Type="Web" />
+          </Or>
+        </OrRule>
+      </EnableRule>
+      <EnableRule Id="ikl.ApplicationRibbon.FormButtonEnableRule.DisableForInactive">
+        <FormStateRule State="Disabled" Default="false" InvertResult="true" />
+      </EnableRule>
+      <EnableRule Id="ikl.ApplicationRibbon.FormButtonEnableRule.SetClick2UndoAndHistoryButtonsVisibility">
+        <CustomRule FunctionName="ikl_ApplicationRibbon_RibbonLibrary.setC2UAndHistoryButtonsVisibility" Library="$webresource:ikl_/Click2Undo/Scripts/ApplicationRibbon/RibbonLibrary.js">
+          <CrmParameter Value="PrimaryEntityTypeName" />
+          <CrmParameter Value="PrimaryItemIds" />
+        </CustomRule>
+      </EnableRule>
+      <EnableRule Id="ikl.ApplicationRibbon.GridButtonEnableRule.NoSelection">
+        <SelectionCountRule AppliesTo="SelectedEntity" Minimum="0" Maximum="0" />
+      </EnableRule>
+      <EnableRule Id="ikl.ApplicationRibbon.GridButtonEnableRule.OneSelectionCount">
+        <SelectionCountRule AppliesTo="SelectedEntity" Minimum="1" Maximum="1" />
+      </EnableRule>
+      <EnableRule Id="ikl.ApplicationRibbon.GridButtonEnableRule.SetClick2UndoAndHistoryButtonsVisibility">
+        <CustomRule FunctionName="ikl_ApplicationRibbon_RibbonLibrary.setC2UAndHistoryButtonsVisibility" Library="$webresource:ikl_/Click2Undo/Scripts/ApplicationRibbon/RibbonLibrary.js">
+          <CrmParameter Value="SelectedEntityTypeName" />
+          <CrmParameter Value="SelectedControlSelectedItemIds" />
+        </CustomRule>
+      </EnableRule>
+      <EnableRule Id="ikl.ApplicationRibbon.GridButtonEnableRule.SetRestoreDeleteButtonVisibility">
+        <CustomRule FunctionName="ikl_ApplicationRibbon_RibbonLibrary.setRestoreDeleteButtonVisibility" Library="$webresource:ikl_/Click2Undo/Scripts/ApplicationRibbon/RibbonLibrary.js">
+          <CrmParameter Value="SelectedEntityTypeName" />
+          <CrmParameter Value="SelectedEntityTypeCode" />
+        </CustomRule>
+      </EnableRule>
+    </EnableRules>
+  </RuleDefinitions>
+  <LocLabels>
+    <LocLabel Id="ikl.ApplicationRibbon.FormButton.Click2Undo.Alt">
+      <Titles>
+        <Title description="Undo" languagecode="1033" />
+        <Title description="Undo" languagecode="1031" />
+        <Title description="Undo" languagecode="1036" />
+        <Title description="Undo" languagecode="3082" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ikl.ApplicationRibbon.FormButton.Click2Undo.LabelText">
+      <Titles>
+        <Title description="Undo" languagecode="1033" />
+        <Title description="Undo" languagecode="1031" />
+        <Title description="Undo" languagecode="1036" />
+        <Title description="Undo" languagecode="3082" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ikl.ApplicationRibbon.FormButton.Click2Undo.ToolTipDescription">
+      <Titles>
+        <Title description="Restores back the last state of the fields. " languagecode="1033" />
+        <Title description="Stellt den letzten Status der Felder wieder her." languagecode="1031" />
+        <Title description="Restaure le dernier état des champs." languagecode="1036" />
+        <Title description="Restaura el último estado de los campos." languagecode="3082" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ikl.ApplicationRibbon.FormButton.Click2Undo.ToolTipTitle">
+      <Titles>
+        <Title description="Undo last changed fields." languagecode="1033" />
+        <Title description="Rückgängig machen zuletzt geänderte Felder." languagecode="1031" />
+        <Title description="Défaire les derniers champs changés." languagecode="1036" />
+        <Title description="Deshacer los últimos campos modificados." languagecode="3082" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ikl.ApplicationRibbon.FormButton.History.Alt">
+      <Titles>
+        <Title description="History" languagecode="1033" />
+        <Title description="Geschichte" languagecode="1031" />
+        <Title description="Histoire" languagecode="1036" />
+        <Title description="Histoire" languagecode="3082" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ikl.ApplicationRibbon.FormButton.History.LabelText">
+      <Titles>
+        <Title description="History" languagecode="1033" />
+        <Title description="Geschichte" languagecode="1031" />
+        <Title description="Histoire" languagecode="1036" />
+        <Title description="Histoire" languagecode="3082" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ikl.ApplicationRibbon.FormButton.History.ToolTipDescription">
+      <Titles>
+        <Title description="Restore changed fields between selected dates." languagecode="1033" />
+        <Title description="Stellen Sie geänderte Felder zwischen ausgewählten Datumsangaben wieder her." languagecode="1031" />
+        <Title description="Restaurer les champs modifiés entre certaines dates." languagecode="1036" />
+        <Title description="Restaure los campos modificados entre las fechas seleccionadas." languagecode="3082" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ikl.ApplicationRibbon.FormButton.History.ToolTipTitle">
+      <Titles>
+        <Title description="Undo selected fields." languagecode="1033" />
+        <Title description="Ausgewählte Felder rückgängig machen." languagecode="1031" />
+        <Title description="Défaire les champs sélectionnés." languagecode="1036" />
+        <Title description="Deshacer campos seleccionados." languagecode="3082" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ikl.ApplicationRibbon.HomeButton.Click2Undo.Alt">
+      <Titles>
+        <Title description="Undo" languagecode="1033" />
+        <Title description="Undo" languagecode="1031" />
+        <Title description="Undo" languagecode="1036" />
+        <Title description="Undo" languagecode="3082" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ikl.ApplicationRibbon.HomeButton.Click2Undo.LabelText">
+      <Titles>
+        <Title description="Undo" languagecode="1033" />
+        <Title description="Undo" languagecode="1031" />
+        <Title description="Undo" languagecode="1036" />
+        <Title description="Undo" languagecode="3082" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ikl.ApplicationRibbon.HomeButton.Click2Undo.ToolTipDescription">
+      <Titles>
+        <Title description="Restores back the last state of the fields. " languagecode="1033" />
+        <Title description="Stellt den letzten Status der Felder wieder her." languagecode="1031" />
+        <Title description="Restaure le dernier état des champs." languagecode="1036" />
+        <Title description="Restaura el último estado de los campos." languagecode="3082" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ikl.ApplicationRibbon.HomeButton.Click2Undo.ToolTipTitle">
+      <Titles>
+        <Title description="Undo last changed fields." languagecode="1033" />
+        <Title description="Rückgängig machen zuletzt geänderte Felder." languagecode="1031" />
+        <Title description="Défaire les derniers champs changés." languagecode="1036" />
+        <Title description="Deshacer los últimos campos modificados." languagecode="3082" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ikl.ApplicationRibbon.HomeButton.History.Alt">
+      <Titles>
+        <Title description="History" languagecode="1033" />
+        <Title description="Geschichte" languagecode="1031" />
+        <Title description="Histoire" languagecode="1036" />
+        <Title description="Histoire" languagecode="3082" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ikl.ApplicationRibbon.HomeButton.History.LabelText">
+      <Titles>
+        <Title description="History" languagecode="1033" />
+        <Title description="Geschichte" languagecode="1031" />
+        <Title description="Histoire" languagecode="1036" />
+        <Title description="Histoire" languagecode="3082" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ikl.ApplicationRibbon.HomeButton.History.ToolTipDescription">
+      <Titles>
+        <Title description="Restore changed fields between selected dates." languagecode="1033" />
+        <Title description="Stellen Sie geänderte Felder zwischen ausgewählten Datumsangaben wieder her." languagecode="1031" />
+        <Title description="Restaurer les champs modifiés entre certaines dates." languagecode="1036" />
+        <Title description="Restaure los campos modificados entre las fechas seleccionadas." languagecode="3082" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ikl.ApplicationRibbon.HomeButton.History.ToolTipTitle">
+      <Titles>
+        <Title description="Undo selected fields." languagecode="1033" />
+        <Title description="Ausgewählte Felder rückgängig machen." languagecode="1031" />
+        <Title description="Défaire les champs sélectionnés." languagecode="1036" />
+        <Title description="Deshacer campos seleccionados." languagecode="3082" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ikl.ApplicationRibbon.HomeButton.RestoreDeleted.Alt">
+      <Titles>
+        <Title description="Restore Deleted" languagecode="1033" />
+        <Title description="Wiederherstellen Delete" languagecode="1031" />
+        <Title description="Restaurer Supprimer" languagecode="1036" />
+        <Title description="Restaurar eliminación" languagecode="3082" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ikl.ApplicationRibbon.HomeButton.RestoreDeleted.LabelText">
+      <Titles>
+        <Title description="Restore Deleted" languagecode="1033" />
+        <Title description="Wiederherstellen Delete" languagecode="1031" />
+        <Title description="Restaurer Supprimer" languagecode="1036" />
+        <Title description="Restaurar eliminación" languagecode="3082" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ikl.ApplicationRibbon.HomeButton.RestoreDeleted.ToolTipDescription">
+      <Titles>
+        <Title description="Restore back the deleted records between selected dates. " languagecode="1033" />
+        <Title description="Stellen Sie die gelöschten Datensätze zwischen den ausgewählten Datumsangaben wieder her." languagecode="1031" />
+        <Title description="Restaurer les enregistrements supprimés entre les dates sélectionnées." languagecode="1036" />
+        <Title description="Restaure los registros eliminados entre las fechas seleccionadas." languagecode="3082" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ikl.ApplicationRibbon.HomeButton.RestoreDeleted.ToolTipTitle">
+      <Titles>
+        <Title description="Restore deleted records." languagecode="1033" />
+        <Title description="Löschene Datensätze wiederherstellen." languagecode="1031" />
+        <Title description="Restaurer les enregistrements supprimés." languagecode="1036" />
+        <Title description="Restaurar registros eliminados." languagecode="3082" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ikl.ApplicationRibbon.SubGridButton.Click2Undo.Alt">
+      <Titles>
+        <Title description="Undo" languagecode="1033" />
+        <Title description="Undo" languagecode="1031" />
+        <Title description="Undo" languagecode="1036" />
+        <Title description="Undo" languagecode="3082" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ikl.ApplicationRibbon.SubGridButton.Click2Undo.LabelText">
+      <Titles>
+        <Title description="Undo" languagecode="1033" />
+        <Title description="Undo" languagecode="1031" />
+        <Title description="Undo" languagecode="1036" />
+        <Title description="Undo" languagecode="3082" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ikl.ApplicationRibbon.SubGridButton.Click2Undo.ToolTipDescription">
+      <Titles>
+        <Title description="Restores back the last state of the fields. " languagecode="1033" />
+        <Title description="Stellt den letzten Status der Felder wieder her." languagecode="1031" />
+        <Title description="Restaure le dernier état des champs." languagecode="1036" />
+        <Title description="Restaura el último estado de los campos." languagecode="3082" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ikl.ApplicationRibbon.SubGridButton.Click2Undo.ToolTipTitle">
+      <Titles>
+        <Title description="Undo last changed fields." languagecode="1033" />
+        <Title description="Rückgängig machen zuletzt geänderte Felder." languagecode="1031" />
+        <Title description="Défaire les derniers champs changés." languagecode="1036" />
+        <Title description="Deshacer los últimos campos modificados." languagecode="3082" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ikl.ApplicationRibbon.SubGridButton.History.Alt">
+      <Titles>
+        <Title description="History" languagecode="1033" />
+        <Title description="Geschichte" languagecode="1031" />
+        <Title description="Histoire" languagecode="1036" />
+        <Title description="Historia" languagecode="3082" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ikl.ApplicationRibbon.SubGridButton.History.LabelText">
+      <Titles>
+        <Title description="History" languagecode="1033" />
+        <Title description="Geschichte" languagecode="1031" />
+        <Title description="Histoire" languagecode="1036" />
+        <Title description="Historia" languagecode="3082" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ikl.ApplicationRibbon.SubGridButton.History.ToolTipDescription">
+      <Titles>
+        <Title description="Restores back the last state of the fields. " languagecode="1033" />
+        <Title description="Stellt den letzten Status der Felder wieder her." languagecode="1031" />
+        <Title description="Restaurer les champs modifiés entre certaines dates." languagecode="1036" />
+        <Title description="Restaure los campos modificados entre las fechas seleccionadas." languagecode="3082" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ikl.ApplicationRibbon.SubGridButton.History.ToolTipTitle">
+      <Titles>
+        <Title description="Undo selected fields." languagecode="1033" />
+        <Title description="Ausgewählte Felder rückgängig machen." languagecode="1031" />
+        <Title description="Défaire les champs sélectionnés." languagecode="1036" />
+        <Title description="Deshacer campos seleccionados." languagecode="3082" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ikl.ApplicationRibbon.SubGridButton.RestoreDeleted.Alt">
+      <Titles>
+        <Title description="Restore Deleted" languagecode="1033" />
+        <Title description="Wiederherstellen Delete" languagecode="1031" />
+        <Title description="Restaurer Supprimer" languagecode="1036" />
+        <Title description="Restaurar eliminación" languagecode="3082" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ikl.ApplicationRibbon.SubGridButton.RestoreDeleted.LabelText">
+      <Titles>
+        <Title description="Restore Deleted" languagecode="1033" />
+        <Title description="Wiederherstellen Delete" languagecode="1031" />
+        <Title description="Restaurer Supprimer" languagecode="1036" />
+        <Title description="Restaurar eliminación" languagecode="3082" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ikl.ApplicationRibbon.SubGridButton.RestoreDeleted.ToolTipDescription">
+      <Titles>
+        <Title description="Restore back the deleted records between selected dates. " languagecode="1033" />
+        <Title description="Stellen Sie die gelöschten Datensätze zwischen den ausgewählten Datumsangaben wieder her." languagecode="1031" />
+        <Title description="Restaurer les enregistrements supprimés entre les dates sélectionnées. " languagecode="1036" />
+        <Title description="Restaure los registros eliminados entre las fechas seleccionadas." languagecode="3082" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ikl.ApplicationRibbon.SubGridButton.RestoreDeleted.ToolTipTitle">
+      <Titles>
+        <Title description="Restore deleted records." languagecode="1033" />
+        <Title description="Löschene Datensätze wiederherstellen." languagecode="1031" />
+        <Title description="Restaurer les enregistrements supprimés." languagecode="1036" />
+        <Title description="Restaurar registros eliminados." languagecode="3082" />
+      </Titles>
+    </LocLabel>
+  </LocLabels>
+</RibbonDiffXml>

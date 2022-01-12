@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.0.18.12" SolutionPackageVersion="9.0" languagecode="1033" generatedBy="OnPremise" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>Click2Undo</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Undo" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Undo is add-on for Microsoft Dynamics 365 which enables users to undo the CRM entities records." languagecode="1033" />
+    </Descriptions>
+    <Version>9.0.0.7</Version>
+    <Managed>1</Managed>
+    <ConfigurationPage>ikl_/Click2Undo/InogicLicense.LicenseConfiguration.html</ConfigurationPage>
+    <Publisher>
+      <UniqueName>inogic</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Inogic" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="Microsoft Partner specializing in development of Innovative solutions and products for Dynamics CRM" languagecode="1033" />
+      </Descriptions>
+      <EMailAddress>mail@domain.com</EMailAddress>
+      <SupportingWebsiteUrl>http://www.microsoft.com</SupportingWebsiteUrl>
+      <CustomizationPrefix>ikl</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>96662</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City>Kansas</City>
+          <County xsi:nil="true"></County>
+          <Country>Usa</Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1>None</Line1>
+          <Line2>None</Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode>000000</PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince>Other</StateOrProvince>
+          <Telephone1>+01</Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="ikl_c2u_entityconfiguration" behavior="0" />
+      <RootComponent type="1" schemaName="ikl_c2u_errorlog" behavior="0" />
+      <RootComponent type="1" schemaName="ikl_click2undoconfiguration" behavior="0" />
+      <RootComponent type="1" schemaName="ikl_inogiclicensedetails" behavior="0" />
+      <RootComponent type="20" id="{a3ba3407-7949-ea11-8105-00155d06150c}" behavior="0" />
+      <RootComponent type="20" id="{d776ca2e-7949-ea11-8105-00155d06150c}" behavior="0" />
+      <RootComponent type="29" id="{55b82020-9528-41dc-bb82-8c93a6eea6b5}" behavior="0" />
+      <RootComponent type="29" id="{85662189-55d0-4f09-81f8-53f9673c522a}" behavior="0" />
+      <RootComponent type="29" id="{9727e140-79ab-42a0-a7ea-b646b4297273}" behavior="0" />
+      <RootComponent type="29" id="{ab8d07be-295e-45e0-a9ab-d4d1be176477}" behavior="0" />
+      <RootComponent type="29" id="{d9468737-82dc-468f-9ef4-f5ba09b45e0d}" behavior="0" />
+      <RootComponent type="36" id="{538bf868-b457-ea11-8105-00155d06150c}" behavior="0" />
+      <RootComponent type="50" schemaName=":RibbonDiffXml" behavior="0" />
+      <RootComponent type="60" id="{a8d36e1a-d2fd-4717-9dd7-6db0bd0fb8e2}" behavior="0" />
+      <RootComponent type="60" id="{c96fdf31-2a80-4ecf-a6e4-dec6b1828c68}" behavior="0" />
+      <RootComponent type="60" id="{f0d03929-cfcc-48c2-afe6-9e094a284c33}" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Css/Alert.css" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Grids/History/build/static/css/main.css" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Grids/History/build/static/js/chunk.js" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Grids/History/build/static/js/main.js" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Grids/History/build/static/js/runtime.js" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Grids/History/index.html" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Grids/restoredelete/build/static/css/main.css" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Grids/restoredelete/build/static/js/chunk.js" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Grids/restoredelete/build/static/js/main.js" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Grids/restoredelete/build/static/js/runtime.js" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Grids/restoredelete/index.html" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Help.html" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Images/alert.png" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Images/alert_load.gif" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Images/Click2UndoLogo.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Images/Entities/Click2UndoConfiguration_16.png" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Images/Entities/Click2UndoConfiguration_32.png" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Images/Entities/Click2UndoConfiguration_32.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Images/Entities/EntityConfiguration_16.png" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Images/Entities/EntityConfiguration_32.png" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Images/Entities/EntityConfiguration_32.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Images/Entities/ErrorLog_16.png" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Images/Entities/ErrorLog_32.png" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Images/Entities/ErrorLog_32.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Images/Help_32.png" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Images/Help_32.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Images/InogicLicense.Activate_16.png" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Images/InogicLicense.InogicLicenseDetails_16.png" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Images/InogicLicense.InogicLicenseDetails_32.png" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Images/InogicLicense.InogicLicenseDetails_32.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Images/InogicLicense.ProductLogo.jpg" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Images/InogicLicense.Save_16.png" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Images/InogicLicense.Sendshortcut_16.png" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Images/InogicLicense.TabSectionDown.png" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Images/InogicLicense.TabSectionRight.png" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Images/Ribbon/Click2Undo_16.png" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Images/Ribbon/Click2Undo_32.png" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Images/Ribbon/Click2Undo_32.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Images/Ribbon/History_16.png" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Images/Ribbon/History_32.png" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Images/Ribbon/History_32.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Images/Ribbon/RestoreDelete_16.png" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Images/Ribbon/RestoreDelete_32.png" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Images/Ribbon/RestoreDelete_32.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/InogicLicense.LicenseConfiguration.html" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/InogicLicense.Notes.html" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/LanguageLables_1031.xml" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/LanguageLables_1033.xml" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/LanguageLables_1036.xml" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/LanguageLables_3082.xml" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Languages/LanguageLabel_1031.xml" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Languages/LanguageLabel_1033.xml" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Languages/LanguageLabel_1036.xml" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Languages/LanguageLabel_3082.xml" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Scripts/ApplicationRibbon/RibbonLibrary.js" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Scripts/Common/Alert.js" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Scripts/Common/CrmJs.js" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Scripts/Common/CrmWebApi.js" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Scripts/Common/Jquery.js" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Scripts/Common/Utility.js" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Scripts/InogicLicense.bootstrap.js" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Scripts/InogicLicense.Configuration.js" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Scripts/InogicLicense.CrmJs.js" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Scripts/InogicLicense.Es6Promise.js" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Scripts/InogicLicense.jquery.js" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Scripts/InogicLicense.jquery_ui.js" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Scripts/InogicLicense.LicDtEn.js" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Scripts/InogicLicense.LicDtEnDc.js" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Scripts/InogicLicense.Validation.js" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Scripts/InogicLicense.WebAPI.js" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Scripts/Shared/InogicLicense.DateFunctionsLibrary.js" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Styles/InogicLicense.bootstrap.min.css" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Styles/InogicLicense.EnableEntity.css" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Styles/InogicLicense.jquery_ui.css" behavior="0" />
+      <RootComponent type="61" schemaName="ikl_/Click2Undo/Styles/InogicLicense.Style.css" behavior="0" />
+      <RootComponent type="62" schemaName="ikl_Click2Undo" behavior="0" />
+      <RootComponent type="62" behavior="0" />
+      <RootComponent type="80" schemaName="ikl_Click2Undo" behavior="0" />
+      <RootComponent type="91" id="{ec94677f-df46-4fd9-8211-83121218e337}" schemaName="Inogic.Click2Undo.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f81dc1825d234d7e" behavior="0" />
+      <RootComponent type="91" id="{52ef40c1-1b8c-4c9c-a04f-647bf8242015}" schemaName="Inogic.Click2Undo.Workflows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f81dc1825d234d7e" behavior="0" />
+      <RootComponent type="92" id="{3c72a7c7-ae49-ea11-8105-00155d06150c}" behavior="0" />
+      <RootComponent type="92" id="{dad249bb-ae49-ea11-8105-00155d06150c}" behavior="0" />
+    </RootComponents>
+    <MissingDependencies></MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

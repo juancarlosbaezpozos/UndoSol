@@ -1,0 +1,1 @@
+"%~dp0/SolutionPackager.exe" /action:Extract /zipfile:%1 /packagetype:Managed /folder:%2 /allowDelete:Yes /allowWrite:Yes /clobber /nologo 

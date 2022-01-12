@@ -1,0 +1,263 @@
+<langlabels>
+  <maptype name="entityconfiguration">
+    <data name="globalaudit">
+      <value>Auditing is not enabled for organization.</value>
+    </data>
+    <data name="entityaudit">
+      <value>Auditing is not enabled for selected entity.</value>
+    </data>
+    <data name="duplicateentityconfig">
+      <value>Entity configuration is already present for selected entity.</value>
+    </data>
+    <data name="organizationsetting">
+      <value>Organization setting not found.</value>
+    </data>
+    <data name="entitymetadata">
+      <value>Entity metadata not found.</value>
+    </data>
+    <data name="entitynamerequired">
+      <value>Please select the required entity.</value>
+    </data>
+  </maptype>
+  <maptype name="c2uconfiguration">
+    <data name="c2uconfigurationnotfound">
+      <value>Undo configuration not found.</value>
+    </data>
+  </maptype>
+  <maptype name="restoredelete">
+    <data name="recordisalreadyexist">
+      <value>The selected record has already been restored in the CRM.</value>
+    </data>
+  </maptype>
+  <maptype name="click2uondobutton">
+    <data name="lastundostatus">
+      <value>Restored with errors. Please check Error Log entity.</value>
+    </data>
+    <data name="lastupdatewasstatus">
+      <value>Status or Status Reason update cannot be undone.</value>
+    </data>
+    <data name="nodatafoundtorestore">
+      <value>No data to restore.</value>
+    </data>
+    <data name="noauditdetailsfound">
+      <value>No changes found for the record.</value>
+    </data>
+    <data name="progressdstatus">
+      <value>Processed {0} of {1} record(s)</value>
+    </data>
+    <data name="successmessage">
+      <value>Last change have been successfully restored.</value>
+    </data>
+    <data name="processedstatus">
+      <value>{0} of {1} record(s) have been successfully restored. For remaining {2} records(s) please check Error Log entity.</value>
+    </data>
+    <data name="okbutton">
+      <value>OK</value>
+    </data>
+  </maptype>
+  <maptype name="historygrid">
+    <data name="gridheader">
+      <value>History</value>
+    </data>
+    <data name="close">
+      <value>Close</value>
+    </data>
+    <data name="ok">
+      <value>OK</value>
+    </data>
+    <data name="startdate">
+      <value>Start Date</value>
+    </data>
+    <data name="enddate">
+      <value>End Date</value>
+    </data>
+    <data name="search">
+      <value>Search</value>
+    </data>
+    <data name="filterby">
+      <value>Filter By</value>
+    </data>
+    <data name="defaultDropDown">
+      <value>All Fields</value>
+    </data>
+    <data name="fieldname">
+      <value>Field Name</value>
+    </data>
+    <data name="oldvalue">
+      <value>Old Value</value>
+    </data>
+    <data name="newvalue">
+      <value>New Value</value>
+    </data>
+    <data name="modifiedon">
+      <value>Modified On</value>
+    </data>
+    <data name="modifiedby">
+      <value>Modified By</value>
+    </data>
+    <data name="undo">
+      <value>Undo</value>
+    </data>
+    <data name="successmessage">
+      <value>Selected record(s) have been successfully restored.</value>
+    </data>
+    <data name="norecordsfound">
+      <value>No data found between selected dates.</value>
+    </data>
+    <data name="enddateafterstartdate">
+      <value>End date should be greater than Start date.</value>
+    </data>
+    <data name="multiplerowsofonefield">
+      <value>Multiple rows for {0} is selected, please select only one row for {1} to undo.</value>
+    </data>
+    <data name="multiplerowsofmultiplefields">
+      <value>Multiple rows for {0} fields are selected, please select only one row for each field to undo.</value>
+    </data>
+    <data name="loading">
+      <value>Loading...</value>
+    </data>
+    <data name="processing">
+      <value>Processing...</value>
+    </data>
+    <data name="pagetranslation">
+      <value>Page</value>
+    </data>
+    <data name="selectedtranslation">
+      <value>selected</value>
+    </data>
+    <data name="ofTranslation">
+      <value>of</value>
+    </data>
+    <data name="months">
+      <value>January,February,March,April,May,June,July,August,September,October,November,December</value>
+    </data>
+    <data name="shortmonths">
+      <value>Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec</value>
+    </data>
+    <data name="days">
+      <value>Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday</value>
+    </data>
+    <data name="shortdays">
+      <value>S,M,T,W,T,F,S</value>
+    </data>
+    <data name="gototoday">
+      <value>Go to today</value>
+    </data>
+    <data name="prevmonth">
+      <value>Go to previous month</value>
+    </data>
+    <data name="nextmonth">
+      <value>Go to next month</value>
+    </data>
+    <data name="prevyear">
+      <value>Go to previous year</value>
+    </data>
+    <data name="nextyear">
+      <value>Go to next year</value>
+    </data>
+    <data name="closebutton">
+      <value>Close date picker</value>
+    </data>
+    <data name="isrequirederror">
+      <value>Start date is required.</value>
+    </data>
+    <data name="invalidinputerror">
+      <value>Invalid date format.</value>
+    </data>
+  </maptype>
+  <maptype name="restoredeletegrid">
+    <data name="gridheader">
+      <value>Restore Deleted</value>
+    </data>
+    <data name="close">
+      <value>Close</value>
+    </data>
+    <data name="ok">
+      <value>OK</value>
+    </data>
+    <data name="startdate">
+      <value>Start Date</value>
+    </data>
+    <data name="enddate">
+      <value>End Date</value>
+    </data>
+    <data name="search">
+      <value>Search</value>
+    </data>
+    <data name="deletedrecord">
+      <value>Deleted Record</value>
+    </data>
+    <data name="deletedon">
+      <value>Deleted On</value>
+    </data>
+    <data name="deletedby">
+      <value>Deleted By</value>
+    </data>
+    <data name="restore">
+      <value>Restore</value>
+    </data>
+    <data name="successmessage">
+      <value>Selected record(s) have been successfully restored.</value>
+    </data>
+    <data name="norecordsfound">
+      <value>No data found between selected dates.</value>
+    </data>
+    <data name="succeedrecordsstatus">
+      <value>{0} of {1} record(s) have been successfully restored. For remaining {2} record(s) please check Error Log entity.</value>
+    </data>
+    <data name="enddateafterstartdate">
+      <value>End date should be greater than Start date.</value>
+    </data>
+    <data name="loading">
+      <value>Loading...</value>
+    </data>
+    <data name="progressdstatus">
+      <value>Processed {0} of {1} record(s)</value>
+    </data>
+    <data name="pagetranslation">
+      <value>Page</value>
+    </data>
+    <data name="selectedtranslation">
+      <value>selected</value>
+    </data>
+    <data name="ofTranslation">
+      <value>of</value>
+    </data>
+    <data name="months">
+      <value>January,February,March,April,May,June,July,August,September,October,November,December</value>
+    </data>
+    <data name="shortmonths">
+      <value>Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec</value>
+    </data>
+    <data name="days">
+      <value>Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday</value>
+    </data>
+    <data name="shortdays">
+      <value>S,M,T,W,T,F,S</value>
+    </data>
+    <data name="gototoday">
+      <value>Go to today</value>
+    </data>
+    <data name="prevmonth">
+      <value>Go to previous month</value>
+    </data>
+    <data name="nextmonth">
+      <value>Go to next month</value>
+    </data>
+    <data name="prevyear">
+      <value>Go to previous year</value>
+    </data>
+    <data name="nextyear">
+      <value>Go to next year</value>
+    </data>
+    <data name="closebutton">
+      <value>Close date picker</value>
+    </data>
+    <data name="isrequirederror">
+      <value>Start date is required.</value>
+    </data>
+    <data name="invalidinputerror">
+      <value>Invalid date format.</value>
+    </data>
+  </maptype>
+</langlabels>

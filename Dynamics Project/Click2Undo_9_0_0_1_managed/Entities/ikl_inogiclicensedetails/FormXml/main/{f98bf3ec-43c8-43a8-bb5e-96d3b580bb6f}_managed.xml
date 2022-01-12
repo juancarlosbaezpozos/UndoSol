@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{f98bf3ec-43c8-43a8-bb5e-96d3b580bb6f}</formid>
+    <IntroducedVersion>5.5.0.1</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{a5af1089-3c47-4866-b90e-5fce88d38019}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="true" showbar="false" IsUserDefined="0" id="{5ca19a10-b98d-4894-ad6e-0df2fd9ffa9d}" name="{5ca19a10-b98d-4894-ad6e-0df2fd9ffa9d}" columns="11" locklevel="0" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="CRM Details" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{083ede4c-d35d-84a4-2b08-218e57ed6b0c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="ikl_productname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ikl_productname" disabled="true" />
+                      </cell>
+                      <cell id="{22552e8e-02a5-a9db-a3e2-5d4068474ea0}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="ikl_crmversion" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ikl_crmversion" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3e8891bb-694e-9502-5a57-8e182b5234aa}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="ikl_organization" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ikl_organization" disabled="true" />
+                      </cell>
+                      <cell id="{ac4ba2ad-551d-49ce-613a-3a0c1814bdb1}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="ikl_licensetype" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ikl_licensetype" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d71b3593-46c8-3a4c-d334-54d7832b7e7b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="ikl_server" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ikl_server" disabled="true" />
+                      </cell>
+                      <cell id="{0798696d-4422-6a8e-96a7-1594e409a145}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="{a5af1089-3c47-4866-b90e-5fce88d38019}_section_2" showlabel="true" showbar="false" locklevel="0" id="{d2e8dab2-38ab-14b1-c238-76c0b865ae40}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="License Details" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{642d9846-054a-37e0-d5b6-7a6962283a70}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="ikl_customer" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ikl_customer" disabled="true" />
+                      </cell>
+                      <cell id="{270b9dc4-96de-e6c3-1c0d-551280e3ed4c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="ikl_userlicenses" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="ikl_userlicenses" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d1c15783-b221-3d15-7de6-44cb1ddd7042}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="ikl_licensestartdate" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ikl_licensestartdate" disabled="true" />
+                      </cell>
+                      <cell id="{9804ca9e-9ce3-a864-4129-93adde4db6cc}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="ikl_maintenancestartdate" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ikl_maintenancestartdate" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{69bc1346-0cb6-8daa-cbc5-284498400513}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="ikl_licenseid" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ikl_licenseid" disabled="true" />
+                      </cell>
+                      <cell id="{5ece883a-5821-a10e-b360-1479bb450372}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="ikl_lastnotificationsent" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="ikl_lastnotificationsent" disabled="false" uniqueid="{bc1b8bc0-c814-9be5-5c92-3a12da33518e}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="{a5af1089-3c47-4866-b90e-5fce88d38019}_section_3" showlabel="false" showbar="false" locklevel="0" id="{86cbce26-aea9-c755-7d1a-8117ba3eb46b}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Expiration Details" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{1871dae3-cbb9-696b-e96e-dd827b009757}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="ikl_licenseenddate" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ikl_licenseenddate" disabled="true" />
+                      </cell>
+                      <cell id="{ce7dc9e6-c280-b308-1015-71de299c61a8}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="ikl_maintenanceenddate" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ikl_maintenanceenddate" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{476a9e45-688d-a0c8-552b-a03783429362}" showlabel="true" locklevel="0" colspan="2" rowspan="7" visible="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="ikl_licensekey" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="ikl_licensekey" disabled="true" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab id="{a9aa7f81-12f7-450d-816f-33079d1ec0e0}" IsUserDefined="0" expanded="true">
+          <labels>
+            <label description="Notes" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" id="{09f8a336-a733-45a4-8556-3bc88a769d2d}" IsUserDefined="0" height="auto">
+                  <labels>
+                    <label description="Notes" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell colspan="2" showlabel="false" rowspan="5" auto="true" id="{cfcaa0df-90c0-49d2-a1f8-6fdcce83ef85}">
+                        <labels>
+                          <label description="Note Text" languagecode="1033" />
+                        </labels>
+                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row height="auto" />
+                    <row>
+                      <cell id="{f0e39403-1286-47e1-8e90-c7a8f01c4502}" colspan="2" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Product Name" languagecode="1033" />
+                        </labels>
+                        <control id="ikl_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ikl_name" disabled="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <footer id="{6733cb3b-115b-4a40-bf13-70ef01016364}">
+        <rows>
+          <row>
+            <cell id="{2ab4939d-6dc1-4cd0-97bf-9be3b96d1b6b}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="footer_statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" />
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Processes" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

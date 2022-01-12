@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{55b82020-9528-41dc-bb82-8c93a6eea6b5}" Name="Restore Last Change" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/RestoreLastChange-55B82020-9528-41DC-BB82-8C93A6EEA6B5.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>3</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>1</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <CreateStage>40</CreateStage>
+  <RunAs>1</RunAs>
+  <SdkMessageId>{0df31c83-ed53-ea11-8105-00155d06150c}</SdkMessageId>
+  <UniqueName>restorelastchange</UniqueName>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>8.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <FormId>{00000000-0000-0000-0000-000000000000}</FormId>
+  <PrimaryEntity>none</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Restore Last Change" />
+  </LocalizedNames>
+</Workflow>

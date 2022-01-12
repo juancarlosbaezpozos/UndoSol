@@ -1,0 +1,263 @@
+<langlabels>
+  <maptype name="entityconfiguration">
+    <data name="globalaudit">
+      <value>Die Überwachung ist für die Organisation nicht aktiviert.</value>
+    </data>
+    <data name="entityaudit">
+      <value>Die Überwachung ist für die ausgewählte Entität nicht aktiviert.</value>
+    </data>
+    <data name="duplicateentityconfig">
+      <value>Die Entitätskonfiguration ist für die ausgewählte Entität bereits vorhanden.</value>
+    </data>
+    <data name="organizationsetting">
+      <value>Organisationseinstellung nicht gefunden.</value>
+    </data>
+    <data name="entitymetadata">
+      <value>Entitätsmetadaten nicht gefunden.</value>
+    </data>
+    <data name="entitynamerequired">
+      <value>Bitte wählen Sie die gewünschte Entität aus.</value>
+    </data>
+  </maptype>
+  <maptype name="c2uconfiguration">
+    <data name="c2uconfigurationnotfound">
+      <value>Click2Undo-Konfiguration nicht gefunden.</value>
+    </data>
+  </maptype>
+  <maptype name="restoredelete">
+    <data name="recordisalreadyexist">
+      <value>Ein Datensatz mit derselben ID ist bereits in CRM vorhanden.</value>
+    </data>
+  </maptype>
+  <maptype name="click2uondobutton">
+    <data name="lastundostatus">
+      <value>Von {0} Feldern werden {1} Felder erfolgreich wiederhergestellt. Überprüfen Sie die Error Log entität auf Fehlerursache für verbleibende {2} Felder.</value>
+    </data>
+    <data name="lastupdatewasstatus">
+      <value>Das letzte Update war Status oder Statusgrund und wir können diese Felder nicht rückgängig machen.</value>
+    </data>
+    <data name="nodatafoundtorestore">
+      <value>Keine Daten zum Wiederherstellen.</value>
+    </data>
+    <data name="noauditdetailsfound">
+      <value>Für den Datensatz wurden keine Änderungen gefunden.</value>
+    </data>
+    <data name="progressdstatus">
+      <value>Verarbeitete {0} {1} Datensatz(en)</value>
+    </data>
+    <data name="successmessage">
+      <value>Die Felder werden erfolgreich wiederhergestellt.</value>
+    </data>
+    <data name="processedstatus">
+      <value>Von {0} Datensätzen wurden {1} Datensätze erfolgreich wiederhergestellt. Überprüfen Sie die Error Log entität auf Fehlerursache für verbleibende {2} Datensätze.</value>
+    </data>
+    <data name="okbutton">
+      <value>in Ordnung</value>
+    </data>
+  </maptype>
+  <maptype name="historygrid">
+    <data name="gridheader">
+      <value>Geschichte</value>
+    </data>
+    <data name="close">
+      <value>Schließen</value>
+    </data>
+    <data name="ok">
+      <value>in Ordnung</value>
+    </data>
+    <data name="startdate">
+      <value>Anfangsdatum</value>
+    </data>
+    <data name="enddate">
+      <value>Endtermin</value>
+    </data>
+    <data name="search">
+      <value>Suche</value>
+    </data>
+    <data name="filterby">
+      <value>Filtern nach</value>
+    </data>
+    <data name="defaultDropDown">
+      <value>Alle Felder</value>
+    </data>
+    <data name="fieldname">
+      <value>Feldname</value>
+    </data>
+    <data name="oldvalue">
+      <value>Alter Wert</value>
+    </data>
+    <data name="newvalue">
+      <value>Neuer Wert</value>
+    </data>
+    <data name="modifiedon">
+      <value>Geändert am</value>
+    </data>
+    <data name="modifiedby">
+      <value>Angepasst von</value>
+    </data>
+    <data name="undo">
+      <value>Rückgängig machen</value>
+    </data>
+    <data name="successmessage">
+      <value>Die ausgewählten Datensätze wurden erfolgreich wiederhergestellt.</value>
+    </data>
+    <data name="norecordsfound">
+      <value>Zwischen dem ausgewählten Start- und Enddatum wurden keine Verlaufsdatensätze gefunden.</value>
+    </data>
+    <data name="enddateafterstartdate">
+      <value>Das Enddatum sollte nach dem Startdatum liegen.</value>
+    </data>
+    <data name="multiplerowsofonefield">
+      <value>Es werden mehrere Zeilen mit {0} Feldern ausgewählt. Wählen Sie nur eine Zeile für jedes Feld aus, um es rückgängig zu machen.</value>
+    </data>
+    <data name="multiplerowsofmultiplefields">
+      <value>Es werden mehrere Zeilen des Felds {0} ausgewählt. Wählen Sie nur eine Zeile aus, damit das Feld {1} rückgängig gemacht werden kann.</value>
+    </data>
+    <data name="loading">
+      <value>Laden...</value>
+    </data>
+    <data name="processing">
+      <value>Verarbeitung...</value>
+    </data>
+    <data name="pagetranslation">
+      <value>Seite</value>
+    </data>
+    <data name="selectedtranslation">
+      <value>ausgewählten</value>
+    </data>
+    <data name="ofTranslation">
+      <value>von</value>
+    </data>
+    <data name="months">
+      <value>Januar,Februar,März,April,Mai,Juni,Juli,August,September,Oktober,November,Dezember</value>
+    </data>
+    <data name="shortmonths">
+      <value>Jan,Feb,Mär,Apr,Mai,Jun,Jul,Aug,Sept,Okt,Nov,Dez</value>
+    </data>
+    <data name="days">
+      <value>Sonntag,Montag,Dienstag,Mittwoch,Donnerstag,Freitag,Samstag</value>
+    </data>
+    <data name="shortdays">
+      <value>S,M,D,M,D,F,S</value>
+    </data>
+    <data name="gototoday">
+      <value>Gehen Sie zu heute</value>
+    </data>
+    <data name="prevmonth">
+      <value>Zum Vorherigen Monat</value>
+    </data>
+    <data name="nextmonth">
+      <value>Zum nächsten Monat</value>
+    </data>
+    <data name="prevyear">
+      <value>Zum Vorjahr</value>
+    </data>
+    <data name="nextyear">
+      <value>Weiter zum nächsten Jahr</value>
+    </data>
+    <data name="closebutton">
+      <value>Stichdatumsauswahl</value>
+    </data>
+    <data name="isrequirederror">
+      <value>Startdatum ist erforderlich.</value>
+    </data>
+    <data name="invalidinputerror">
+      <value>Ungültiges Datumsformat.</value>
+    </data>
+  </maptype>
+  <maptype name="restoredeletegrid">
+    <data name="gridheader">
+      <value>Wiederherstellen gelöscht</value>
+    </data>
+    <data name="close">
+      <value>Schließen</value>
+    </data>
+    <data name="ok">
+      <value>in Ordnung</value>
+    </data>
+    <data name="startdate">
+      <value>Anfangsdatum</value>
+    </data>
+    <data name="enddate">
+      <value>Endtermin</value>
+    </data>
+    <data name="search">
+      <value>Suche</value>
+    </data>
+    <data name="deletedrecord">
+      <value>Datensatz gelöscht</value>
+    </data>
+    <data name="deletedon">
+      <value>Gelöscht am</value>
+    </data>
+    <data name="deletedby">
+      <value>Gelöscht von</value>
+    </data>
+    <data name="restore">
+      <value>Wiederherstellen</value>
+    </data>
+    <data name="successmessage">
+      <value>Die ausgewählten Datensätze wurden erfolgreich wiederhergestellt.</value>
+    </data>
+    <data name="norecordsfound">
+      <value>Zwischen dem ausgewählten Start- und Enddatum wurden keine gelöschten Datensätze gefunden.</value>
+    </data>
+    <data name="succeedrecordsstatus">
+      <value>Von {0} Datensätzen wurden {1} Datensätze erfolgreich wiederhergestellt. Überprüfen Sie die Error Log entität auf Fehlerursache für verbleibende {2} Datensätze.</value>
+    </data>
+    <data name="enddateafterstartdate">
+      <value>Das Enddatum sollte nach dem Startdatum liegen.</value>
+    </data>
+    <data name="loading">
+      <value>Laden...</value>
+    </data>
+    <data name="progressdstatus">
+      <value>Verarbeitete {0} {1} Datensatz(en)</value>
+    </data>
+    <data name="pagetranslation">
+      <value>Seite</value>
+    </data>
+    <data name="selectedtranslation">
+      <value>ausgewählten</value>
+    </data>
+    <data name="ofTranslation">
+      <value>von</value>
+    </data>
+    <data name="months">
+      <value>Januar,Februar,März,April,Mai,Juni,Juli,August,September,Oktober,November,Dezember</value>
+    </data>
+    <data name="shortmonths">
+      <value>Jan,Feb,Mär,Apr,Mai,Jun,Jul,Aug,Sept,Okt,Nov,Dez</value>
+    </data>
+    <data name="days">
+      <value>Sonntag,Montag,Dienstag,Mittwoch,Donnerstag,Freitag,Samstag</value>
+    </data>
+    <data name="shortdays">
+      <value>S,M,D,M,D,F,S</value>
+    </data>
+    <data name="gototoday">
+      <value>Gehen Sie zu heute</value>
+    </data>
+    <data name="prevmonth">
+      <value>Zum Vorherigen Monat</value>
+    </data>
+    <data name="nextmonth">
+      <value>Zum nächsten Monat</value>
+    </data>
+    <data name="prevyear">
+      <value>Zum Vorjahr</value>
+    </data>
+    <data name="nextyear">
+      <value>Weiter zum nächsten Jahr</value>
+    </data>
+    <data name="closebutton">
+      <value>Stichdatumsauswahl</value>
+    </data>
+    <data name="isrequirederror">
+      <value>Startdatum ist erforderlich.</value>
+    </data>
+    <data name="invalidinputerror">
+      <value>Ungültiges Datumsformat.</value>
+    </data>
+  </maptype>
+</langlabels>

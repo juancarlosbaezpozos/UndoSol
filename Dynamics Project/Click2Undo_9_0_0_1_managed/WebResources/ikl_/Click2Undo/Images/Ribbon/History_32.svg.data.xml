@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{75b73140-7d58-ea11-a3a3-00155d00131e}</WebResourceId>
+  <Name>ikl_/Click2Undo/Images/Ribbon/History_32.svg</Name>
+  <DisplayName>ikl_/Click2Undo/Images/Ribbon/History_32.svg</DisplayName>
+  <Description>Image for History button for UCI of 32x32 pixel size.</Description>
+  <WebResourceType>11</WebResourceType>
+  <IntroducedVersion>9.0.0.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/ikl_Click2UndoImagesRibbonHistory_32svg75B73140-7D58-EA11-A3A3-00155D00131E</FileName>
+</WebResource>

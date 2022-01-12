@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{d43b1657-459f-427f-9ee9-c83af59a5bad}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ikl_name" select="1" icon="1" preview="1">
+        <row name="result" id="ikl_inogiclicensedetailsid">
+          <cell name="ikl_name" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="ikl_inogiclicensedetails">
+          <attribute name="ikl_inogiclicensedetailsid" />
+          <attribute name="ikl_name" />
+          <attribute name="createdon" />
+          <order attribute="ikl_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="ikl_name" operator="like" value="{0}" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>5.5.0.1</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quick Find Active Inogic License Details" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

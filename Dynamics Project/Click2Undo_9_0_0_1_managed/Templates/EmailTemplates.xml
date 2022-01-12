@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EmailTemplates xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <emailtemplate>
+    <IsCustomizable>1</IsCustomizable>
+    <templateid>{538bf868-b457-ea11-8105-00155d06150c}</templateid>
+    <subject></subject>
+    <subjectpresentationxml></subjectpresentationxml>
+    <templatetypecode>8</templatetypecode>
+    <body></body>
+    <title>Notification</title>
+    <description>Email template for free license.</description>
+    <presentationxml></presentationxml>
+    <languagecode>1033</languagecode>
+    <generationtypecode>0</generationtypecode>
+    <IntroducedVersion>8.0.0.0</IntroducedVersion>
+  </emailtemplate>
+</EmailTemplates>

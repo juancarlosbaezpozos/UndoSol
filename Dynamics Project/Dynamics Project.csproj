@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EB8A827B-F5C9-4498-B85F-D4902A818624}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Dynamics_Project</RootNamespace>
+    <AssemblyName>Dynamics Project</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Click2Undo_9_0_0_1_managed\AppModuleSiteMaps\ikl_Click2Undo\AppModuleSiteMap_managed.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\AppModules\ikl_Click2Undo\AppModule.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Entities\ikl_c2u_entityconfiguration\Entity.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Entities\ikl_c2u_entityconfiguration\FormXml\card\{3c013219-9a0b-43d0-8354-4ea69145fc11}_managed.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Entities\ikl_c2u_entityconfiguration\FormXml\main\{a8d36e1a-d2fd-4717-9dd7-6db0bd0fb8e2}_managed.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Entities\ikl_c2u_entityconfiguration\FormXml\main\{fa92d68c-4f14-40bc-897c-9e14f72d4d19}_managed.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Entities\ikl_c2u_entityconfiguration\FormXml\quick\{54253747-3d98-4a68-ac3d-c1a68b1c001e}_managed.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Entities\ikl_c2u_entityconfiguration\RibbonDiff.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Entities\ikl_c2u_entityconfiguration\SavedQueries\{035fd278-7549-ea11-8105-00155d06150c}.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Entities\ikl_c2u_entityconfiguration\SavedQueries\{1396f11a-f8c9-4e22-9ea1-8c1d1d22c85d}.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Entities\ikl_c2u_entityconfiguration\SavedQueries\{7fc15ec2-797b-46c6-8273-03ec7177a62f}.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Entities\ikl_c2u_entityconfiguration\SavedQueries\{bbbd57de-ad7c-4b9a-b87a-f3f0ad5bd83b}.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Entities\ikl_c2u_entityconfiguration\SavedQueries\{d1d690ff-1f08-43a5-9213-1d71f136fd40}.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Entities\ikl_c2u_entityconfiguration\SavedQueries\{edafacca-e6e7-4110-9157-58004cb51233}.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Entities\ikl_c2u_entityconfiguration\SavedQueries\{fbd8db0c-5478-488f-a5d4-f8677f4d9079}.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Entities\ikl_c2u_errorlog\Entity.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Entities\ikl_c2u_errorlog\FormXml\card\{992a1f6e-adbc-4564-bb9a-b3a0c815b345}_managed.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Entities\ikl_c2u_errorlog\FormXml\main\{7e2284ee-5dac-418c-b3a8-c21d433deecc}_managed.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Entities\ikl_c2u_errorlog\FormXml\main\{f0d03929-cfcc-48c2-afe6-9e094a284c33}_managed.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Entities\ikl_c2u_errorlog\FormXml\quick\{55306ebd-3284-4a54-a546-a58fabf68d7a}_managed.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Entities\ikl_c2u_errorlog\RibbonDiff.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Entities\ikl_c2u_errorlog\SavedQueries\{145be0f5-373b-4d72-bfd7-4b58eda32b88}.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Entities\ikl_c2u_errorlog\SavedQueries\{1b22ec35-6b0b-436d-a0e1-9bdc25ea256d}.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Entities\ikl_c2u_errorlog\SavedQueries\{3124b693-029d-423b-b48a-4e8aefa4f10d}.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Entities\ikl_c2u_errorlog\SavedQueries\{683e7e37-277f-4cb2-b170-f1418fa174a8}.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Entities\ikl_c2u_errorlog\SavedQueries\{77d06231-fd03-484a-bd81-72d249f61f5c}.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Entities\ikl_c2u_errorlog\SavedQueries\{7c2598a6-77d6-40a8-8c80-fb44cba9390c}.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Entities\ikl_c2u_errorlog\SavedQueries\{a53acf5c-7749-ea11-8105-00155d06150c}.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Entities\ikl_click2undoconfiguration\Entity.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Entities\ikl_click2undoconfiguration\FormXml\card\{4fa2a8f9-7d6b-4353-914c-2478c39b4bc9}_managed.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Entities\ikl_click2undoconfiguration\FormXml\main\{486a7140-1a0d-4f15-a127-894fe76f5c91}_managed.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Entities\ikl_click2undoconfiguration\FormXml\main\{c96fdf31-2a80-4ecf-a6e4-dec6b1828c68}_managed.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Entities\ikl_click2undoconfiguration\FormXml\quick\{02a8a2bf-e57e-4a9d-8d76-4c86f3195283}_managed.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Entities\ikl_click2undoconfiguration\RibbonDiff.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Entities\ikl_click2undoconfiguration\SavedQueries\{89fff22d-0218-48b5-88a7-98fa9eea901d}.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Entities\ikl_click2undoconfiguration\SavedQueries\{942c19d2-5b73-4d52-a77d-aa761051fb47}.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Entities\ikl_click2undoconfiguration\SavedQueries\{a2aa4f2d-0d53-ea11-8105-00155d06150c}.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Entities\ikl_click2undoconfiguration\SavedQueries\{c5adb053-fd86-4b76-a89a-8234cae1c986}.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Entities\ikl_click2undoconfiguration\SavedQueries\{c9cdd156-e537-4372-8557-c0cd9370fd39}.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Entities\ikl_click2undoconfiguration\SavedQueries\{cfa6cf02-4ac5-476c-8336-a04ab7c3cea0}.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Entities\ikl_click2undoconfiguration\SavedQueries\{d631cef5-eb1f-47cb-8e9b-68073e6d18e2}.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Entities\ikl_inogiclicensedetails\Entity.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Entities\ikl_inogiclicensedetails\FormXml\main\{f98bf3ec-43c8-43a8-bb5e-96d3b580bb6f}_managed.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Entities\ikl_inogiclicensedetails\RibbonDiff.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Entities\ikl_inogiclicensedetails\SavedQueries\{16ebefe0-99b1-46df-abfb-7e2c91342027}.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Entities\ikl_inogiclicensedetails\SavedQueries\{8a7504f9-6654-46da-a726-0f69de832931}.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Entities\ikl_inogiclicensedetails\SavedQueries\{a4dd3643-089e-4526-9a0c-6d8a4acae343}.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Entities\ikl_inogiclicensedetails\SavedQueries\{c5e6d809-4ba7-4a88-888c-cf3b41aa5acf}.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Entities\ikl_inogiclicensedetails\SavedQueries\{ce7f0085-44c5-448b-ba57-b2b1a9ed4d98}.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Entities\ikl_inogiclicensedetails\SavedQueries\{d43b1657-459f-427f-9ee9-c83af59a5bad}.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Entities\ikl_inogiclicensedetails\SavedQueries\{f75b87b8-03da-e011-9dc2-00155d000f03}.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Other\Customizations.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Other\Relationships.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Other\Relationships\BusinessUnit.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Other\Relationships\Organization.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Other\Relationships\Owner.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Other\Relationships\SystemUser.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Other\Relationships\Team.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Other\RibbonCustomization.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Other\SiteMap_managed.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Other\Solution.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\PluginAssemblies\InogicClick2UndoPlugins-EC94677F-DF46-4FD9-8211-83121218E337\InogicClick2UndoPlugins.dll" />
+    <Content Include="Click2Undo_9_0_0_1_managed\PluginAssemblies\InogicClick2UndoPlugins-EC94677F-DF46-4FD9-8211-83121218E337\InogicClick2UndoPlugins.dll.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\PluginAssemblies\InogicClick2UndoWorkflows-52EF40C1-1B8C-4C9C-A04F-647BF8242015\InogicClick2UndoWorkflows.dll" />
+    <Content Include="Click2Undo_9_0_0_1_managed\PluginAssemblies\InogicClick2UndoWorkflows-52EF40C1-1B8C-4C9C-A04F-647BF8242015\InogicClick2UndoWorkflows.dll.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Roles\Click2Undo Administrator.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Roles\Click2Undo User.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\SdkMessageProcessingSteps\{3c72a7c7-ae49-ea11-8105-00155d06150c}.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\SdkMessageProcessingSteps\{dad249bb-ae49-ea11-8105-00155d06150c}.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Templates\EmailDocuments\1033\{538bf868-b457-ea11-8105-00155d06150c}\body.xsl" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Templates\EmailDocuments\1033\{538bf868-b457-ea11-8105-00155d06150c}\presentationxml.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Templates\EmailDocuments\1033\{538bf868-b457-ea11-8105-00155d06150c}\subject.xsl" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Templates\EmailDocuments\1033\{538bf868-b457-ea11-8105-00155d06150c}\subjectpresentationxml.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Templates\EmailTemplates.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Css\Alert.css" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Css\Alert.css.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Grids\History\build\static\css\main.css" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Grids\History\build\static\css\main.css.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Grids\History\build\static\js\chunk.js" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Grids\History\build\static\js\chunk.js.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Grids\History\build\static\js\main.js" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Grids\History\build\static\js\main.js.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Grids\History\build\static\js\runtime.js" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Grids\History\build\static\js\runtime.js.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Grids\History\index.html" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Grids\History\index.html.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Grids\restoredelete\build\static\css\main.css" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Grids\restoredelete\build\static\css\main.css.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Grids\restoredelete\build\static\js\chunk.js" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Grids\restoredelete\build\static\js\chunk.js.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Grids\restoredelete\build\static\js\main.js" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Grids\restoredelete\build\static\js\main.js.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Grids\restoredelete\build\static\js\runtime.js" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Grids\restoredelete\build\static\js\runtime.js.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Grids\restoredelete\index.html" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Grids\restoredelete\index.html.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Help.html" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Help.html.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\alert.png" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\alert.png.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\alert_load.gif" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\alert_load.gif.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\Click2UndoLogo.svg" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\Click2UndoLogo.svg.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\Entities\Click2UndoConfiguration_16.png" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\Entities\Click2UndoConfiguration_16.png.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\Entities\Click2UndoConfiguration_32.png" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\Entities\Click2UndoConfiguration_32.png.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\Entities\Click2UndoConfiguration_32.svg" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\Entities\Click2UndoConfiguration_32.svg.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\Entities\EntityConfiguration_16.png" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\Entities\EntityConfiguration_16.png.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\Entities\EntityConfiguration_32.png" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\Entities\EntityConfiguration_32.png.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\Entities\EntityConfiguration_32.svg" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\Entities\EntityConfiguration_32.svg.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\Entities\ErrorLog_16.png" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\Entities\ErrorLog_16.png.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\Entities\ErrorLog_32.png" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\Entities\ErrorLog_32.png.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\Entities\ErrorLog_32.svg" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\Entities\ErrorLog_32.svg.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\Help_32.png" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\Help_32.png.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\Help_32.svg" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\Help_32.svg.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\InogicLicense.Activate_16.png" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\InogicLicense.Activate_16.png.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\InogicLicense.InogicLicenseDetails_16.png" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\InogicLicense.InogicLicenseDetails_16.png.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\InogicLicense.InogicLicenseDetails_32.png" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\InogicLicense.InogicLicenseDetails_32.png.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\InogicLicense.InogicLicenseDetails_32.svg" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\InogicLicense.InogicLicenseDetails_32.svg.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\InogicLicense.ProductLogo.jpg" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\InogicLicense.ProductLogo.jpg.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\InogicLicense.Save_16.png" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\InogicLicense.Save_16.png.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\InogicLicense.Sendshortcut_16.png" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\InogicLicense.Sendshortcut_16.png.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\InogicLicense.TabSectionDown.png" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\InogicLicense.TabSectionDown.png.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\InogicLicense.TabSectionRight.png" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\InogicLicense.TabSectionRight.png.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\Ribbon\Click2Undo_16.png" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\Ribbon\Click2Undo_16.png.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\Ribbon\Click2Undo_32.png" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\Ribbon\Click2Undo_32.png.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\Ribbon\Click2Undo_32.svg" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\Ribbon\Click2Undo_32.svg.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\Ribbon\History_16.png" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\Ribbon\History_16.png.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\Ribbon\History_32.png" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\Ribbon\History_32.png.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\Ribbon\History_32.svg" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\Ribbon\History_32.svg.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\Ribbon\RestoreDelete_16.png" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\Ribbon\RestoreDelete_16.png.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\Ribbon\RestoreDelete_32.png" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\Ribbon\RestoreDelete_32.png.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\Ribbon\RestoreDelete_32.svg" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Images\Ribbon\RestoreDelete_32.svg.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\InogicLicense.LicenseConfiguration.html" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\InogicLicense.LicenseConfiguration.html.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\InogicLicense.Notes.html" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\InogicLicense.Notes.html.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\LanguageLables_1031.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\LanguageLables_1031.xml.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\LanguageLables_1033.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\LanguageLables_1033.xml.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\LanguageLables_1036.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\LanguageLables_1036.xml.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\LanguageLables_3082.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\LanguageLables_3082.xml.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Languages\LanguageLabel_1031.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Languages\LanguageLabel_1031.xml.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Languages\LanguageLabel_1033.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Languages\LanguageLabel_1033.xml.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Languages\LanguageLabel_1036.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Languages\LanguageLabel_1036.xml.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Languages\LanguageLabel_3082.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Languages\LanguageLabel_3082.xml.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Scripts\ApplicationRibbon\RibbonLibrary.js" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Scripts\ApplicationRibbon\RibbonLibrary.js.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Scripts\Common\Alert.js" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Scripts\Common\Alert.js.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Scripts\Common\CrmJs.js" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Scripts\Common\CrmJs.js.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Scripts\Common\CrmWebApi.js" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Scripts\Common\CrmWebApi.js.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Scripts\Common\Jquery.js" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Scripts\Common\Jquery.js.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Scripts\Common\Utility.js" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Scripts\Common\Utility.js.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Scripts\InogicLicense.bootstrap.js" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Scripts\InogicLicense.bootstrap.js.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Scripts\InogicLicense.Configuration.js" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Scripts\InogicLicense.Configuration.js.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Scripts\InogicLicense.CrmJs.js" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Scripts\InogicLicense.CrmJs.js.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Scripts\InogicLicense.Es6Promise.js" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Scripts\InogicLicense.Es6Promise.js.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Scripts\InogicLicense.jquery.js" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Scripts\InogicLicense.jquery.js.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Scripts\InogicLicense.jquery_ui.js" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Scripts\InogicLicense.jquery_ui.js.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Scripts\InogicLicense.LicDtEn.js" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Scripts\InogicLicense.LicDtEn.js.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Scripts\InogicLicense.LicDtEnDc.js" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Scripts\InogicLicense.LicDtEnDc.js.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Scripts\InogicLicense.Validation.js" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Scripts\InogicLicense.Validation.js.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Scripts\InogicLicense.WebAPI.js" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Scripts\InogicLicense.WebAPI.js.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Scripts\Shared\InogicLicense.DateFunctionsLibrary.js" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Scripts\Shared\InogicLicense.DateFunctionsLibrary.js.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Styles\InogicLicense.bootstrap.min.css" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Styles\InogicLicense.bootstrap.min.css.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Styles\InogicLicense.EnableEntity.css" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Styles\InogicLicense.EnableEntity.css.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Styles\InogicLicense.jquery_ui.css" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Styles\InogicLicense.jquery_ui.css.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Styles\InogicLicense.Style.css" />
+    <Content Include="Click2Undo_9_0_0_1_managed\WebResources\ikl_\Click2Undo\Styles\InogicLicense.Style.css.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Workflows\getauditdetails-AB8D07BE-295E-45E0-A9AB-D4D1BE176477.xaml.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Workflows\getdeletedrecorddetails-85662189-55D0-4F09-81F8-53F9673C522A.xaml.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Workflows\RestoreDeletedRecords-D9468737-82DC-468F-9EF4-F5BA09B45E0D.xaml.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Workflows\RestoreLastChange-55B82020-9528-41DC-BB82-8C93A6EEA6B5.xaml.data.xml" />
+    <Content Include="Click2Undo_9_0_0_1_managed\Workflows\RestoreSelectedChanges-9727E140-79AB-42A0-A7EA-B646B4297273.xaml.data.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Click2Undo_9_0_0_1_managed\Workflows\getauditdetails-AB8D07BE-295E-45E0-A9AB-D4D1BE176477.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Click2Undo_9_0_0_1_managed\Workflows\getdeletedrecorddetails-85662189-55D0-4F09-81F8-53F9673C522A.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Click2Undo_9_0_0_1_managed\Workflows\RestoreDeletedRecords-D9468737-82DC-468F-9EF4-F5BA09B45E0D.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Click2Undo_9_0_0_1_managed\Workflows\RestoreLastChange-55B82020-9528-41DC-BB82-8C93A6EEA6B5.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Click2Undo_9_0_0_1_managed\Workflows\RestoreSelectedChanges-9727E140-79AB-42A0-A7EA-B646B4297273.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{56050137-8358-ea11-a3a3-00155d00131e}</WebResourceId>
+  <Name>ikl_/Click2Undo/Images/Entities/ErrorLog_32.svg</Name>
+  <DisplayName>ikl_/Click2Undo/Images/Entities/ErrorLog_32.svg</DisplayName>
+  <Description>Image for Error Log entity for UCI of 32x32 pixel size.</Description>
+  <LanguageCode>1033</LanguageCode>
+  <WebResourceType>11</WebResourceType>
+  <IntroducedVersion>9.0.0.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/ikl_Click2UndoImagesEntitiesErrorLog_32svg56050137-8358-EA11-A3A3-00155D00131E</FileName>
+</WebResource>

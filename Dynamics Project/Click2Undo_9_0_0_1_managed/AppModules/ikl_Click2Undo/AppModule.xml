@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>ikl_Click2Undo</UniqueName>
+  <IntroducedVersion>9.0.0.0</IntroducedVersion>
+  <WebResourceId>d9afabb6-7d58-ea11-a3a3-00155d00131e</WebResourceId>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <AppModuleComponents>
+    <AppModuleComponent type="62" schemaName="ikl_Click2Undo" />
+    <AppModuleComponent type="1" schemaName="ikl_click2undoconfiguration" />
+    <AppModuleComponent type="1" schemaName="ikl_c2u_entityconfiguration" />
+    <AppModuleComponent type="1" schemaName="ikl_c2u_errorlog" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{a3ba3407-7949-ea11-8105-00155d06150c}" />
+    <Role id="{d776ca2e-7949-ea11-8105-00155d06150c}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="Undo" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="Undo ist eine Produktivitäts-App, mit der Änderungen in Dynamics 365-Datensätzen mit nur einem Klick rückgängig gemacht werden können." languagecode="1031" />
+    <Description description="Undo is a productivity app to undo changes in Dynamics 365 records with just a single click." languagecode="1033" />
+    <Description description="Undo est une application de productivité pour annuler les modifications dans les enregistrements Dynamics 365 en un seul clic." languagecode="1036" />
+    <Description description="Undo es una aplicación de productividad para deshacer los cambios en los registros de Dynamics 365 con un solo clic." languagecode="3082" />
+  </Descriptions>
+</AppModule>

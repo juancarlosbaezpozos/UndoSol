@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModuleSiteMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SiteMapUniqueName>ikl_Click2Undo</SiteMapUniqueName>
+  <SiteMap IntroducedVersion="7.0.0.0">
+    <Area Id="Click2Undo" ResourceId="SitemapDesigner.NewArea" DescriptionResourceId="SitemapDesigner.NewArea" VectorIcon="/WebResources/ikl_/Click2Undo/Images/Click2UndoLogo.svg" Icon="/WebResources/ikl_/Click2Undo/Images/Click2UndoLogo.svg" ShowGroups="true" IntroducedVersion="7.0.0.0">
+      <Titles>
+        <Title LCID="1033" Title="Undo" />
+        <Title LCID="1036" Title="Undo" />
+        <Title LCID="1031" Title="Undo" />
+        <Title LCID="3082" Title="Undo" />
+      </Titles>
+      <Group Id="Click2Undo" ResourceId="SitemapDesigner.NewGroup" DescriptionResourceId="SitemapDesigner.NewGroup" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Undo" />
+          <Title LCID="1036" Title="Undo" />
+          <Title LCID="1031" Title="Undo" />
+          <Title LCID="3082" Title="Undo" />
+        </Titles>
+	      <SubArea Id="ikl_Click2Undo_License_Registration" ResourceId="SitemapDesigner.NewSubArea" VectorIcon="/WebResources/ikl_/Click2Undo/Images/InogicLicense.InogicLicenseDetails_32.svg" Icon="/WebResources/ikl_/Click2Undo/Images/InogicLicense.InogicLicenseDetails_32.svg" Url="$webresource:ikl_/Click2Undo/InogicLicense.LicenseConfiguration.html" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Entities" />
+            <Title LCID="1036" Title="Entities" />
+            <Title LCID="1031" Title="Entities" />
+            <Title LCID="3082" Title="Entities" />
+          </Titles>
+          <Privilege Entity="ikl_click2undoconfiguration" Privilege="Create" />
+        </SubArea>
+        <SubArea Id="ikl_click2undoconfiguration" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="7.0.0.0" Entity="ikl_click2undoconfiguration" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Configuration" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="ikl_c2u_errorlog" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ikl_c2u_errorlog" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+    </Area>
+  </SiteMap>
+  <LocalizedNames>
+    <LocalizedName description="Undo" languagecode="1033" />
+  </LocalizedNames>
+</AppModuleSiteMap>

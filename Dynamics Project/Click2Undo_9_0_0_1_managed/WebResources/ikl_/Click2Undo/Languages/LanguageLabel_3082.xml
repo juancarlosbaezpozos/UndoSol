@@ -1,0 +1,263 @@
+<langlabels>
+  <maptype name="entityconfiguration">
+    <data name="globalaudit">
+      <value>La auditoría no está habilitada para la organización.</value>
+    </data>
+    <data name="entityaudit">
+      <value>La auditoría no está habilitada para la entidad seleccionada.</value>
+    </data>
+    <data name="duplicateentityconfig">
+      <value>La configuración de entidad ya está presente para la entidad seleccionada.</value>
+    </data>
+    <data name="organizationsetting">
+      <value>No se ha encontrado la configuración de la organización.</value>
+    </data>
+    <data name="entitymetadata">
+      <value>No se han encontrado metadatos de entidad.</value>
+    </data>
+    <data name="entitynamerequired">
+      <value>Seleccione la entidad necesaria.</value>
+    </data>
+  </maptype>
+  <maptype name="c2uconfiguration">
+    <data name="c2uconfigurationnotfound">
+      <value>No se encontró la configuración Click2Undo.</value>
+    </data>
+  </maptype>
+  <maptype name="restoredelete">
+    <data name="recordisalreadyexist">
+      <value>El registro con el mismo id ya existe en CRM.</value>
+    </data>
+  </maptype>
+  <maptype name="click2uondobutton">
+    <data name="lastundostatus">
+      <value>{0} de {1} campos se han restaurado correctamente. Para los campos de {2} restantes, compruebe la entidad Error Log.</value>
+    </data>
+    <data name="lastupdatewasstatus">
+      <value>El estado o la actualización de motivo de estado no se pueden deshacer.</value>
+    </data>
+    <data name="nodatafoundtorestore">
+      <value>No hay datos que restaurar.</value>
+    </data>
+    <data name="noauditdetailsfound">
+      <value>No changes found for the record.</value>
+    </data>
+    <data name="progressdstatus">
+      <value>Processed {0} of {1} record(s)</value>
+    </data>
+    <data name="successmessage">
+      <value>El último cambio se ha restaurado correctamente.</value>
+    </data>
+    <data name="processedstatus">
+      <value>{0} de {1} registro(s) se han restaurado correctamente. Para los registros de {2} restantes, compruebe la entidad Error Log.</value>
+    </data>
+    <data name="okbutton">
+      <value>De acuerdo</value>
+    </data>
+  </maptype>
+  <maptype name="historygrid">
+    <data name="gridheader">
+      <value>Historia</value>
+    </data>   
+    <data name="close">
+      <value>Cerca</value>
+    </data>
+    <data name="ok">
+      <value>De acuerdo</value>
+    </data>
+    <data name="startdate">
+      <value>Fecha de inicio</value>
+    </data>
+    <data name="enddate">
+      <value>Fecha final</value>
+    </data>
+    <data name="search">
+      <value>Buscar</value>
+    </data>
+    <data name="filterby">
+      <value>Filtrado por</value>
+    </data>
+    <data name="defaultDropDown">
+      <value>Todos los campos</value>
+    </data>
+    <data name="fieldname">
+      <value>Nombre del campo</value>
+    </data>
+    <data name="oldvalue">
+      <value>Valor antiguo</value>
+    </data>
+    <data name="newvalue">
+      <value>Nuevo valor</value>
+    </data>
+    <data name="modifiedon">
+      <value>Modificado en</value>
+    </data>
+    <data name="modifiedby">
+      <value>Modificado por</value>
+    </data>
+    <data name="undo">
+      <value>Deshacer</value>
+    </data>
+    <data name="successmessage">
+      <value>Los registros seleccionados se restauraron correctamente.</value>
+    </data>
+    <data name="norecordsfound">
+      <value>No se encontraron registros de historial entre la fecha de inicio y finalización seleccionada.</value>
+    </data>
+    <data name="enddateafterstartdate">
+      <value>La fecha de finalización debe ser posterior a la fecha de inicio.</value>
+    </data>
+    <data name="multiplerowsofonefield">
+      <value>Se seleccionan varias filas para {0}, seleccione solo una fila para {1} deshacer.</value>
+    </data>
+    <data name="multiplerowsofmultiplefields">
+      <value>Se seleccionan varias filas para {0} campos, seleccione solo una fila para cada campo que deshacer.</value>
+    </data>
+    <data name="loading">
+      <value>Carga...</value>
+    </data>
+    <data name="processing">
+      <value>Tratamiento...</value>
+    </data>
+    <data name="pagetranslation">
+      <value>Página</value>
+    </data>
+    <data name="selectedtranslation">
+      <value>Seleccionado</value>
+    </data>
+    <data name="ofTranslation">
+      <value>De</value>
+    </data>
+    <data name="months">
+      <value>Enero, Febrero, Marzo, Abril, Mayo, Junio, Julio, Agosto, Septiembre,Octubre, Noviembre, Diciembre</value>
+    </data>
+    <data name="shortmonths">
+      <value>Ene, Feb, Mar, Abr, May, Jun, Jul, Ago, Sep,Oct, Nov, Dic</value>
+    </data>
+    <data name="days">
+      <value>Domingo, Lunes, Martes, Miércoles, Jueves, Viernes, Sábado</value>
+    </data>
+    <data name="shortdays">
+      <value>D,L,M,M,J,V,S</value>
+    </data>
+    <data name="gototoday">
+      <value>Ir a hoy</value>
+    </data>
+    <data name="prevmonth">
+      <value>Ir al mes anterior</value>
+    </data>
+    <data name="nextmonth">
+      <value>Ir al mes que viene</value>
+    </data>
+    <data name="prevyear">
+      <value>Ir al año anterior</value>
+    </data>
+    <data name="nextyear">
+      <value>Ir al año que viene</value>
+    </data>
+    <data name="closebutton">
+      <value>Selector de fecha de cierre</value>
+    </data>
+    <data name="isrequirederror">
+      <value>Se requiere la fecha de inicio.</value>
+    </data>
+    <data name="invalidinputerror">
+      <value>Formato de fecha no válido.</value>
+    </data>
+  </maptype>
+  <maptype name="restoredeletegrid">
+    <data name="gridheader">
+      <value>Restaurar eliminado</value>
+    </data>   
+    <data name="close">
+      <value>Cerca</value>
+    </data>
+    <data name="ok">
+      <value>De acuerdo</value>
+    </data>
+    <data name="startdate">
+      <value>Fecha de inicio</value>
+    </data>
+    <data name="enddate">
+      <value>Fecha final</value>
+    </data>
+    <data name="search">
+      <value>Buscar</value>
+    </data>
+    <data name="deletedrecord">
+      <value>Registro eliminado</value>
+    </data>
+    <data name="deletedon">
+      <value>Eliminado en</value>
+    </data>
+    <data name="deletedby">
+      <value>Eliminado por</value>
+    </data>
+    <data name="restore">
+      <value>Restaurar</value>
+    </data>
+    <data name="successmessage">
+      <value>Los registros seleccionados se restauraron correctamente.</value>
+    </data>
+    <data name="norecordsfound">
+      <value>No se encontraron registros eliminados entre las fechas de inicio y finalización seleccionadas.</value>
+    </data>
+    <data name="succeedrecordsstatus">
+      <value>{0} de {1} registro(s) se han restaurado correctamente. Para los registros de {2} restantes, compruebe la entidad Error Log.</value>
+    </data>
+    <data name="enddateafterstartdate">
+      <value>La fecha de finalización debe ser posterior a la fecha de inicio.</value>
+    </data>
+    <data name="loading">
+      <value>Carga...</value>
+    </data>
+    <data name="progressdstatus">
+      <value>{0} procesada de {1} registro(s)</value>
+    </data>
+    <data name="pagetranslation">
+      <value>Página</value>
+    </data>
+    <data name="selectedtranslation">
+      <value>Seleccionado</value>
+    </data>
+    <data name="ofTranslation">
+      <value>De</value>
+    </data>
+    <data name="months">
+      <value>Enero, Febrero, Marzo, Abril, Mayo, Junio, Julio, Agosto, Septiembre,Octubre, Noviembre, Diciembre</value>
+    </data>
+    <data name="shortmonths">
+      <value>Ene, Feb, Mar, Abr, May, Jun, Jul, Ago, Sep,Oct, Nov, Dic</value>
+    </data>
+    <data name="days">
+      <value>Domingo, Lunes, Martes, Miércoles, Jueves, Viernes, Sábado</value>
+    </data>
+    <data name="shortdays">
+      <value>D,L,M,M,J,V,S</value>
+    </data>
+    <data name="gototoday">
+      <value>Ir a hoy</value>
+    </data>
+    <data name="prevmonth">
+      <value>Ir al mes anterior</value>
+    </data>
+    <data name="nextmonth">
+      <value>Ir al mes que viene</value>
+    </data>
+    <data name="prevyear">
+      <value>Ir al año anterior</value>
+    </data>
+    <data name="nextyear">
+      <value>Ir al año que viene</value>
+    </data>
+    <data name="closebutton">
+      <value>Selector de fecha de cierre</value>
+    </data>
+    <data name="isrequirederror">
+      <value>Se requiere la fecha de inicio.</value>
+    </data>
+    <data name="invalidinputerror">
+      <value>Formato de fecha no válido.</value>
+    </data>
+  </maptype>
+</langlabels>

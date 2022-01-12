@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{d3501688-bf99-ea11-a3ae-00155d00131e}</WebResourceId>
+  <Name>ikl_/Click2Undo/Images/Help_32.png</Name>
+  <DisplayName>ikl_/Click2Undo/Images/Help_32.png</DisplayName>
+  <Description>This is image used for Help web resource in Sitemap</Description>
+  <WebResourceType>5</WebResourceType>
+  <IntroducedVersion>9.0.0.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/ikl_Click2UndoImagesHelp_32pngD3501688-BF99-EA11-A3AE-00155D00131E</FileName>
+</WebResource>

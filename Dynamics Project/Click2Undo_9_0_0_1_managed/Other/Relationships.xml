@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="business_unit_ikl_c2u_entityconfiguration" />
+  <EntityRelationship Name="business_unit_ikl_c2u_errorlog" />
+  <EntityRelationship Name="business_unit_ikl_click2undoconfiguration" />
+  <EntityRelationship Name="lk_ikl_c2u_entityconfiguration_createdby" />
+  <EntityRelationship Name="lk_ikl_c2u_entityconfiguration_modifiedby" />
+  <EntityRelationship Name="lk_ikl_c2u_errorlog_createdby" />
+  <EntityRelationship Name="lk_ikl_c2u_errorlog_modifiedby" />
+  <EntityRelationship Name="lk_ikl_click2undoconfiguration_createdby" />
+  <EntityRelationship Name="lk_ikl_click2undoconfiguration_modifiedby" />
+  <EntityRelationship Name="lk_ikl_inogiclicensedetails_createdby" />
+  <EntityRelationship Name="lk_ikl_inogiclicensedetails_modifiedby" />
+  <EntityRelationship Name="organization_ikl_inogiclicensedetails" />
+  <EntityRelationship Name="owner_ikl_c2u_entityconfiguration" />
+  <EntityRelationship Name="owner_ikl_c2u_errorlog" />
+  <EntityRelationship Name="owner_ikl_click2undoconfiguration" />
+  <EntityRelationship Name="team_ikl_c2u_entityconfiguration" />
+  <EntityRelationship Name="team_ikl_c2u_errorlog" />
+  <EntityRelationship Name="team_ikl_click2undoconfiguration" />
+  <EntityRelationship Name="user_ikl_c2u_entityconfiguration" />
+  <EntityRelationship Name="user_ikl_c2u_errorlog" />
+  <EntityRelationship Name="user_ikl_click2undoconfiguration" />
+</EntityRelationships>

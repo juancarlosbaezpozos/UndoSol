@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PluginAssembly FullName="Inogic.Click2Undo.Workflows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f81dc1825d234d7e" PluginAssemblyId="52ef40c1-1b8c-4c9c-a04f-647bf8242015" CustomizationLevel="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IsolationMode>2</IsolationMode>
+  <SourceType>0</SourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <FileName>/PluginAssemblies/InogicClick2UndoWorkflows-52EF40C1-1B8C-4C9C-A04F-647BF8242015/InogicClick2UndoWorkflows.dll</FileName>
+  <PluginTypes>
+    <PluginType AssemblyQualifiedName="Inogic.Click2Undo.Workflows.GetAuditDetails, Inogic.Click2Undo.Workflows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f81dc1825d234d7e" PluginTypeId="e672d1a9-4749-454f-8ada-936544803771" Name="Inogic.Click2Undo.Workflows.GetAuditDetails">
+      <FriendlyName>0cf0e34a-1926-41c4-bf7a-5803b51a0b6b</FriendlyName>
+      <WorkflowActivityGroupName>Inogic.Click2Undo.Workflows (1.0.0.0)</WorkflowActivityGroupName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Inogic.Click2Undo.Workflows.GetDeletedRecordDetails, Inogic.Click2Undo.Workflows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f81dc1825d234d7e" PluginTypeId="5f56a6b9-95df-448a-911b-bda19752942b" Name="Inogic.Click2Undo.Workflows.GetDeletedRecordDetails">
+      <FriendlyName>246cb0bb-c023-4a37-8e51-597731f00d75</FriendlyName>
+      <WorkflowActivityGroupName>Inogic.Click2Undo.Workflows (1.0.0.0)</WorkflowActivityGroupName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Inogic.Click2Undo.Workflows.RestoreDeletedRecords, Inogic.Click2Undo.Workflows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f81dc1825d234d7e" PluginTypeId="37630716-a19b-423d-8ae8-a064840e7d30" Name="Inogic.Click2Undo.Workflows.RestoreDeletedRecords">
+      <FriendlyName>379a8ae6-3008-4eb6-b189-bb710287e2a7</FriendlyName>
+      <WorkflowActivityGroupName>Inogic.Click2Undo.Workflows (1.0.0.0)</WorkflowActivityGroupName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Inogic.Click2Undo.Workflows.RestoreLastChange, Inogic.Click2Undo.Workflows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f81dc1825d234d7e" PluginTypeId="6f89c9e5-ad2e-44e9-b0fd-8c9889d298d5" Name="Inogic.Click2Undo.Workflows.RestoreLastChange">
+      <FriendlyName>21b42f67-fed3-4e38-8c75-a5b9ebfc8816</FriendlyName>
+      <WorkflowActivityGroupName>Inogic.Click2Undo.Workflows (1.0.0.0)</WorkflowActivityGroupName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Inogic.Click2Undo.Workflows.RestoreSelectedChanges, Inogic.Click2Undo.Workflows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f81dc1825d234d7e" PluginTypeId="c60f60b8-28fc-4bf9-bf8f-9bb619730372" Name="Inogic.Click2Undo.Workflows.RestoreSelectedChanges">
+      <FriendlyName>48c960db-7838-4304-a22f-a219af3aa9ca</FriendlyName>
+      <WorkflowActivityGroupName>Inogic.Click2Undo.Workflows (1.0.0.0)</WorkflowActivityGroupName>
+    </PluginType>
+  </PluginTypes>
+</PluginAssembly>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{553a509b-6d54-ea11-8105-00155d06150c}</WebResourceId>
+  <Name>ikl_/Click2Undo/Grids/History/index.html</Name>
+  <DisplayName>ikl_/Click2Undo/Grids/History/index.html</DisplayName>
+  <Description>This webresource contains Index HTML page of History grid</Description>
+  <LanguageCode>1033</LanguageCode>
+  <WebResourceType>1</WebResourceType>
+  <IntroducedVersion>8.0.0.0</IntroducedVersion>
+  <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/ikl_Click2UndoGridsHistoryindexhtml553A509B-6D54-EA11-8105-00155D06150C</FileName>
+</WebResource>
